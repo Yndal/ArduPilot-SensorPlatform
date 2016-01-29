@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/heat_map"
+        tools:context="org.droidplanner.android.activities.HeatMapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <!-- Top menu bar -->
+    <org.droidplanner.android.widgets.FitsSystemWindowsFrameLayout
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/actionbar_container"
+        android:fitsSystemWindows="true">
+
+        <include layout="@layout/actionbar_toolbar"/>
+    </org.droidplanner.android.widgets.FitsSystemWindowsFrameLayout>
+
+    <!--Read error message -->
+    <TextView
+        android:id="@+id/failsafeTextView"
+        style="@style/editorMissionOverviewText"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#D8ee2d3e"
+        android:gravity="start|center_vertical"
+        android:visibility="gone"
+        android:layout_below="@+id/actionbar_container"
+        android:layout_alignLeft="@+id/actionbar_container"
+        android:layout_alignStart="@+id/actionbar_container"
+        android:layout_alignRight="@+id/actionbar_container"
+        android:layout_alignEnd="@+id/actionbar_container"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:focusable="false"
+        android:clickable="false"
+        style="@style/slidingPanelGravity">
+
+        <!--Buttons in the bottom -->
+        <org.droidplanner.android.widgets.FitsSystemWindowsFrameLayout
+            android:id="@+id/flightActionsFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_flight_actions_bar"
+            android:fitsSystemWindows="true"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/dummy"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="72dp" />
+
+</RelativeLayout>

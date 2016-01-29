@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Mavlink.Mavlink">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dependencyLibs/Mavlink/build/libs/Mavlink.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,563 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ver.c.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT(.init))
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x0000000000000000        0x0
+ *(.text .stub)
+ .text          0x0000000000000000        0x0 ver.c.o
+ *(.gnu.warning)
+
+.text.ver_main  0x0000000000000000      0x1c4
+ .text.ver_main
+                0x0000000000000000      0x1c4 ver.c.o
+                0x0000000000000000                ver_main
+
+.fini
+ *(SORT(.fini))
+
+.rodata
+ *(.rodata)
+
+.rodata.sz_ver_gcc_str
+                0x0000000000000000        0x4
+ .rodata.sz_ver_gcc_str
+                0x0000000000000000        0x4 ver.c.o
+
+.rodata.sz_ver_bdate_str
+                0x0000000000000000        0x6
+ .rodata.sz_ver_bdate_str
+                0x0000000000000000        0x6 ver.c.o
+
+.rodata.sz_ver_hw_str
+                0x0000000000000000        0x3
+ .rodata.sz_ver_hw_str
+                0x0000000000000000        0x3 ver.c.o
+
+.rodata.mcu_uid_str
+                0x0000000000000000        0x4
+ .rodata.mcu_uid_str
+                0x0000000000000000        0x4 ver.c.o
+
+.rodata.sz_ver_git_str
+                0x0000000000000000        0x4
+ .rodata.sz_ver_git_str
+                0x0000000000000000        0x4 ver.c.o
+
+.rodata.sz_ver_hwcmp_str
+                0x0000000000000000        0x6
+ .rodata.sz_ver_hwcmp_str
+                0x0000000000000000        0x6 ver.c.o
+
+.rodata.str1.1  0x0000000000000000      0x240
+ .rodata.str1.1
+                0x0000000000000000      0x240 ver.c.o
+
+.rodata.sz_ver_all_str
+                0x0000000000000000        0x4
+ .rodata.sz_ver_all_str
+                0x0000000000000000        0x4 ver.c.o
+
+.rodata.mcu_ver_str
+                0x0000000000000000        0x4
+ .rodata.mcu_ver_str
+                0x0000000000000000        0x4 ver.c.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x0000000000000000        0x0
+ *(.data)
+ .data          0x0000000000000000        0x0 ver.c.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x0000000000000000        0x0 ver.c.o
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x71
+ *(.comment)
+ .comment       0x0000000000000000       0x71 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 ver.c.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x20
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 ver.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x5c2
+ *(.debug_info)
+ .debug_info    0x0000000000000000      0x5c2 ver.c.o
+
+.debug_abbrev   0x0000000000000000      0x1aa
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x1aa ver.c.o
+
+.debug_line     0x0000000000000000      0x89c
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x89c ver.c.o
+
+.debug_frame    0x0000000000000000       0x34
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x34 ver.c.o
+
+.debug_str      0x0000000000000000     0x8aa2
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x8aa2 ver.c.o
+
+.debug_loc      0x0000000000000000      0x23d
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x23d ver.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0x48
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x48 ver.c.o
+
+.debug_macro    0x0000000000000000      0x1c2
+ *(.debug_macro)
+ .debug_macro   0x0000000000000000      0x1c2 ver.c.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x0000000000000000       0x35
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x35 ver.c.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4fmu-v2_APM.build//Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/src/systemcmds/ver/module.pre.o elf32-littlearm)
+
+.debug_macro    0x0000000000000000      0x89e
+ .debug_macro   0x0000000000000000      0x89e ver.c.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 ver.c.o
+
+.debug_macro    0x0000000000000000      0x89f
+ .debug_macro   0x0000000000000000      0x89f ver.c.o
+
+.debug_macro    0x0000000000000000       0xc9
+ .debug_macro   0x0000000000000000       0xc9 ver.c.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 ver.c.o
+
+.debug_macro    0x0000000000000000       0x88
+ .debug_macro   0x0000000000000000       0x88 ver.c.o
+
+.debug_macro    0x0000000000000000      0x14e
+ .debug_macro   0x0000000000000000      0x14e ver.c.o
+
+.debug_macro    0x0000000000000000      0x125
+ .debug_macro   0x0000000000000000      0x125 ver.c.o
+
+.debug_macro    0x0000000000000000       0x69
+ .debug_macro   0x0000000000000000       0x69 ver.c.o
+
+.debug_macro    0x0000000000000000       0x58
+ .debug_macro   0x0000000000000000       0x58 ver.c.o
+
+.debug_macro    0x0000000000000000       0x4c
+ .debug_macro   0x0000000000000000       0x4c ver.c.o
+
+.debug_macro    0x0000000000000000       0x49
+ .debug_macro   0x0000000000000000       0x49 ver.c.o
+
+.debug_macro    0x0000000000000000      0x106
+ .debug_macro   0x0000000000000000      0x106 ver.c.o
+
+.debug_macro    0x0000000000000000       0x23
+ .debug_macro   0x0000000000000000       0x23 ver.c.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 ver.c.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 ver.c.o
+
+.debug_macro    0x0000000000000000       0xd1
+ .debug_macro   0x0000000000000000       0xd1 ver.c.o
+
+.debug_macro    0x0000000000000000       0x98
+ .debug_macro   0x0000000000000000       0x98 ver.c.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 ver.c.o
+
+.debug_macro    0x0000000000000000       0x59
+ .debug_macro   0x0000000000000000       0x59 ver.c.o
+
+.debug_macro    0x0000000000000000      0x11b
+ .debug_macro   0x0000000000000000      0x11b ver.c.o
+
+.debug_macro    0x0000000000000000       0x46
+ .debug_macro   0x0000000000000000       0x46 ver.c.o
+
+.debug_macro    0x0000000000000000      0x27f
+ .debug_macro   0x0000000000000000      0x27f ver.c.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 ver.c.o
+
+.debug_macro    0x0000000000000000      0x195
+ .debug_macro   0x0000000000000000      0x195 ver.c.o
+
+.debug_macro    0x0000000000000000       0x8a
+ .debug_macro   0x0000000000000000       0x8a ver.c.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 ver.c.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 ver.c.o
+
+.debug_macro    0x0000000000000000       0x39
+ .debug_macro   0x0000000000000000       0x39 ver.c.o
+
+.debug_macro    0x0000000000000000       0xb4
+ .debug_macro   0x0000000000000000       0xb4 ver.c.o
+
+.debug_macro    0x0000000000000000       0x41
+ .debug_macro   0x0000000000000000       0x41 ver.c.o
+
+.debug_macro    0x0000000000000000       0x4d
+ .debug_macro   0x0000000000000000       0x4d ver.c.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 ver.c.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 ver.c.o

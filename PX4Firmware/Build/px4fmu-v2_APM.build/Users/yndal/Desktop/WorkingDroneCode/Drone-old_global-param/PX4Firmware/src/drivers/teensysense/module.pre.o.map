@@ -1,0 +1,1005 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD teensysense.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT(.init))
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x0000000000000000        0x0
+ *(.text .stub)
+ .text          0x0000000000000000        0x0 teensysense.cpp.o
+ *(.gnu.warning)
+
+.text._ZN11TEENSYSENSED2Ev
+                0x0000000000000000       0x14
+ .text._ZN11TEENSYSENSED2Ev
+                0x0000000000000000       0x14 teensysense.cpp.o
+                0x0000000000000000                TEENSYSENSE::~TEENSYSENSE()
+                0x0000000000000000                TEENSYSENSE::~TEENSYSENSE()
+
+.text._ZN11TEENSYSENSED0Ev
+                0x0000000000000000       0x12
+ .text._ZN11TEENSYSENSED0Ev
+                0x0000000000000000       0x12 teensysense.cpp.o
+                0x0000000000000000                TEENSYSENSE::~TEENSYSENSE()
+
+.text._ZN11TEENSYSENSEC2Eii
+                0x0000000000000000       0x54
+ .text._ZN11TEENSYSENSEC2Eii
+                0x0000000000000000       0x54 teensysense.cpp.o
+                0x0000000000000000                TEENSYSENSE::TEENSYSENSE(int, int)
+                0x0000000000000000                TEENSYSENSE::TEENSYSENSE(int, int)
+
+.text._ZN11TEENSYSENSE5startEv
+                0x0000000000000000        0xc
+ .text._ZN11TEENSYSENSE5startEv
+                0x0000000000000000        0xc teensysense.cpp.o
+                0x0000000000000000                TEENSYSENSE::start()
+
+.text._ZN11TEENSYSENSE4stopEv
+                0x0000000000000000        0xa
+ .text._ZN11TEENSYSENSE4stopEv
+                0x0000000000000000        0xa teensysense.cpp.o
+                0x0000000000000000                TEENSYSENSE::stop()
+
+.text._ZN11TEENSYSENSE16cycle_trampolineEPv
+                0x0000000000000000        0x2
+ .text._ZN11TEENSYSENSE16cycle_trampolineEPv
+                0x0000000000000000        0x2 teensysense.cpp.o
+                0x0000000000000000                TEENSYSENSE::cycle_trampoline(void*)
+
+.text._ZN11TEENSYSENSE5cycleEv
+                0x0000000000000000        0x2
+ .text._ZN11TEENSYSENSE5cycleEv
+                0x0000000000000000        0x2 teensysense.cpp.o
+                0x0000000000000000                TEENSYSENSE::cycle()
+
+.text._ZN11TEENSYSENSE4testEv
+                0x0000000000000000       0x54
+ .text._ZN11TEENSYSENSE4testEv
+                0x0000000000000000       0x54 teensysense.cpp.o
+                0x0000000000000000                TEENSYSENSE::test()
+
+.text._ZN11TEENSYSENSE10readSingleEv
+                0x0000000000000000       0x10
+ .text._ZN11TEENSYSENSE10readSingleEv
+                0x0000000000000000       0x10 teensysense.cpp.o
+                0x0000000000000000                TEENSYSENSE::readSingle()
+
+.text._ZN11TEENSYSENSE7collectEv
+                0x0000000000000000       0x3c
+ .text._ZN11TEENSYSENSE7collectEv
+                0x0000000000000000       0x3c teensysense.cpp.o
+                0x0000000000000000                TEENSYSENSE::collect()
+
+.text._ZN11TEENSYSENSE7measureEv
+                0x0000000000000000       0x1a
+ .text._ZN11TEENSYSENSE7measureEv
+                0x0000000000000000       0x1a teensysense.cpp.o
+                0x0000000000000000                TEENSYSENSE::measure()
+
+.text._ZN11TEENSYSENSE4readEP4filePcj
+                0x0000000000000000       0x26
+ .text._ZN11TEENSYSENSE4readEP4filePcj
+                0x0000000000000000       0x26 teensysense.cpp.o
+                0x0000000000000000                TEENSYSENSE::read(file*, char*, unsigned int)
+
+.text._Z17teensysense_usagev
+                0x0000000000000000       0x34
+ .text._Z17teensysense_usagev
+                0x0000000000000000       0x34 teensysense.cpp.o
+                0x0000000000000000                teensysense_usage()
+
+.text.teensysense_main
+                0x0000000000000000      0x1ac
+ .text.teensysense_main
+                0x0000000000000000      0x1ac teensysense.cpp.o
+                0x0000000000000000                teensysense_main
+
+.text._ZN11TEENSYSENSE4initEv
+                0x0000000000000000       0x24
+ .text._ZN11TEENSYSENSE4initEv
+                0x0000000000000000       0x24 teensysense.cpp.o
+                0x0000000000000000                TEENSYSENSE::init()
+
+.text._ZN11TEENSYSENSE5ioctlEP4fileim
+                0x0000000000000000       0x60
+ .text._ZN11TEENSYSENSE5ioctlEP4fileim
+                0x0000000000000000       0x60 teensysense.cpp.o
+                0x0000000000000000                TEENSYSENSE::ioctl(file*, int, unsigned long)
+
+.fini
+ *(SORT(.fini))
+
+.rodata
+ *(.rodata)
+
+.rodata._ZTV11TEENSYSENSE
+                0x0000000000000000       0x60
+ .rodata._ZTV11TEENSYSENSE
+                0x0000000000000000       0x60 teensysense.cpp.o
+                0x0000000000000000                vtable for TEENSYSENSE
+
+.rodata.str1.1  0x0000000000000000      0x1aa
+ .rodata.str1.1
+                0x0000000000000000      0x1aa teensysense.cpp.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x0000000000000000        0x0
+ *(.data)
+ .data          0x0000000000000000        0x0 teensysense.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x0000000000000000        0x0 teensysense.cpp.o
+ *(COMMON)
+
+.bss._ZN12_GLOBAL__N_113g_teensysenseE
+                0x0000000000000000        0x4
+ .bss._ZN12_GLOBAL__N_113g_teensysenseE
+                0x0000000000000000        0x4 teensysense.cpp.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x71
+ *(.comment)
+ .comment       0x0000000000000000       0x71 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 teensysense.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x98
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x98 teensysense.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x5385
+ *(.debug_info)
+ .debug_info    0x0000000000000000     0x5385 teensysense.cpp.o
+
+.debug_abbrev   0x0000000000000000      0x61f
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x61f teensysense.cpp.o
+
+.debug_line     0x0000000000000000     0x18a5
+ *(.debug_line)
+ .debug_line    0x0000000000000000     0x18a5 teensysense.cpp.o
+
+.debug_frame    0x0000000000000000      0x194
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x194 teensysense.cpp.o
+
+.debug_str      0x0000000000000000    0x4a10a
+ *(.debug_str)
+ .debug_str     0x0000000000000000    0x4a10a teensysense.cpp.o
+
+.debug_loc      0x0000000000000000      0x856
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x856 teensysense.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0xf0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0xf0 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x5fe
+ *(.debug_macro)
+ .debug_macro   0x0000000000000000      0x5fe teensysense.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x0000000000000000       0x35
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x35 teensysense.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4fmu-v2_APM.build//Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/src/drivers/teensysense/module.pre.o elf32-littlearm)
+
+.debug_macro    0x0000000000000000      0x8bc
+ .debug_macro   0x0000000000000000      0x8bc teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x89f
+ .debug_macro   0x0000000000000000      0x89f teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0xc9
+ .debug_macro   0x0000000000000000       0xc9 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x6bb
+ .debug_macro   0x0000000000000000      0x6bb teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x88
+ .debug_macro   0x0000000000000000       0x88 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x14e
+ .debug_macro   0x0000000000000000      0x14e teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x125
+ .debug_macro   0x0000000000000000      0x125 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x5d
+ .debug_macro   0x0000000000000000       0x5d teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x23
+ .debug_macro   0x0000000000000000       0x23 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x53
+ .debug_macro   0x0000000000000000       0x53 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x39
+ .debug_macro   0x0000000000000000       0x39 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x9c
+ .debug_macro   0x0000000000000000       0x9c teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x5e
+ .debug_macro   0x0000000000000000       0x5e teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x14d
+ .debug_macro   0x0000000000000000      0x14d teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0xd1
+ .debug_macro   0x0000000000000000       0xd1 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x58
+ .debug_macro   0x0000000000000000       0x58 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x4c
+ .debug_macro   0x0000000000000000       0x4c teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x49
+ .debug_macro   0x0000000000000000       0x49 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x106
+ .debug_macro   0x0000000000000000      0x106 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x98
+ .debug_macro   0x0000000000000000       0x98 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x59
+ .debug_macro   0x0000000000000000       0x59 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x11b
+ .debug_macro   0x0000000000000000      0x11b teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x46
+ .debug_macro   0x0000000000000000       0x46 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x27f
+ .debug_macro   0x0000000000000000      0x27f teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x195
+ .debug_macro   0x0000000000000000      0x195 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x8a
+ .debug_macro   0x0000000000000000       0x8a teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0xb4
+ .debug_macro   0x0000000000000000       0xb4 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x41
+ .debug_macro   0x0000000000000000       0x41 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x4d
+ .debug_macro   0x0000000000000000       0x4d teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0xa4
+ .debug_macro   0x0000000000000000       0xa4 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x4d
+ .debug_macro   0x0000000000000000       0x4d teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0xc1
+ .debug_macro   0x0000000000000000       0xc1 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x29
+ .debug_macro   0x0000000000000000       0x29 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x2b
+ .debug_macro   0x0000000000000000       0x2b teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x167
+ .debug_macro   0x0000000000000000      0x167 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x30
+ .debug_macro   0x0000000000000000       0x30 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x78
+ .debug_macro   0x0000000000000000       0x78 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x6cb
+ .debug_macro   0x0000000000000000      0x6cb teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x20a
+ .debug_macro   0x0000000000000000      0x20a teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0xf6f
+ .debug_macro   0x0000000000000000      0xf6f teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x2ab
+ .debug_macro   0x0000000000000000      0x2ab teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x8b5
+ .debug_macro   0x0000000000000000      0x8b5 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x78
+ .debug_macro   0x0000000000000000       0x78 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x14e
+ .debug_macro   0x0000000000000000      0x14e teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x7ca
+ .debug_macro   0x0000000000000000      0x7ca teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0xff
+ .debug_macro   0x0000000000000000       0xff teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0xae7
+ .debug_macro   0x0000000000000000      0xae7 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x51
+ .debug_macro   0x0000000000000000       0x51 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x11a
+ .debug_macro   0x0000000000000000      0x11a teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x1d
+ .debug_macro   0x0000000000000000       0x1d teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x206
+ .debug_macro   0x0000000000000000      0x206 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x56a
+ .debug_macro   0x0000000000000000      0x56a teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x2bf
+ .debug_macro   0x0000000000000000      0x2bf teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0xd3
+ .debug_macro   0x0000000000000000       0xd3 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x34
+ .debug_macro   0x0000000000000000       0x34 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0xab0
+ .debug_macro   0x0000000000000000      0xab0 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x17
+ .debug_macro   0x0000000000000000       0x17 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x6fa
+ .debug_macro   0x0000000000000000      0x6fa teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x596
+ .debug_macro   0x0000000000000000      0x596 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x29b
+ .debug_macro   0x0000000000000000      0x29b teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000     0x15a4
+ .debug_macro   0x0000000000000000     0x15a4 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x53
+ .debug_macro   0x0000000000000000       0x53 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x347
+ .debug_macro   0x0000000000000000      0x347 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x96
+ .debug_macro   0x0000000000000000       0x96 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x9a
+ .debug_macro   0x0000000000000000       0x9a teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x1cf
+ .debug_macro   0x0000000000000000      0x1cf teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x16c
+ .debug_macro   0x0000000000000000      0x16c teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x413
+ .debug_macro   0x0000000000000000      0x413 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x5f
+ .debug_macro   0x0000000000000000       0x5f teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x1d
+ .debug_macro   0x0000000000000000       0x1d teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0xdf
+ .debug_macro   0x0000000000000000       0xdf teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x13f
+ .debug_macro   0x0000000000000000      0x13f teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0xdb4
+ .debug_macro   0x0000000000000000      0xdb4 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x21b
+ .debug_macro   0x0000000000000000      0x21b teensysense.cpp.o
+
+.debug_macro    0x0000000000000000      0x24d
+ .debug_macro   0x0000000000000000      0x24d teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c teensysense.cpp.o
+
+.debug_macro    0x0000000000000000       0x2e
+ .debug_macro   0x0000000000000000       0x2e teensysense.cpp.o

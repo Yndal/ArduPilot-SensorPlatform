@@ -1,0 +1,1617 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD lsm303d.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT(.init))
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x0000000000000000        0x0
+ *(.text .stub)
+ .text          0x0000000000000000        0x0 lsm303d.cpp.o
+ *(.gnu.warning)
+
+.text._ZN11LSM303D_mag4readEP4filePcj
+                0x0000000000000000        0xc
+ .text._ZN11LSM303D_mag4readEP4filePcj
+                0x0000000000000000        0xc lsm303d.cpp.o
+                0x0000000000000000                LSM303D_mag::read(file*, char*, unsigned int)
+
+.text._ZN10RingBufferD2Ev
+                0x0000000000000000       0x18
+ .text._ZN10RingBufferD2Ev
+                0x0000000000000000       0x18 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::~RingBuffer()
+                0x0000000000000000                RingBuffer::~RingBuffer()
+
+.text._ZN10RingBufferD0Ev
+                0x0000000000000000       0x12
+ .text._ZN10RingBufferD0Ev
+                0x0000000000000000       0x12 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::~RingBuffer()
+
+.text._ZN11LSM303D_magD2Ev
+                0x0000000000000000       0x28
+ .text._ZN11LSM303D_magD2Ev
+                0x0000000000000000       0x28 lsm303d.cpp.o
+                0x0000000000000000                LSM303D_mag::~LSM303D_mag()
+                0x0000000000000000                LSM303D_mag::~LSM303D_mag()
+
+.text._ZN11LSM303D_magD0Ev
+                0x0000000000000000       0x12
+ .text._ZN11LSM303D_magD0Ev
+                0x0000000000000000       0x12 lsm303d.cpp.o
+                0x0000000000000000                LSM303D_mag::~LSM303D_mag()
+
+.text._ZN10RingBufferC2Ejj
+                0x0000000000000000       0x24
+ .text._ZN10RingBufferC2Ejj
+                0x0000000000000000       0x24 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::RingBuffer(unsigned int, unsigned int)
+                0x0000000000000000                RingBuffer::RingBuffer(unsigned int, unsigned int)
+
+.text._ZN10RingBuffer5_nextEj
+                0x0000000000000000        0xa
+ .text._ZN10RingBuffer5_nextEj
+                0x0000000000000000        0xa lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::_next(unsigned int)
+
+.text._ZN10RingBuffer5emptyEv
+                0x0000000000000000        0xc
+ .text._ZN10RingBuffer5emptyEv
+                0x0000000000000000        0xc lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::empty()
+
+.text._ZN10RingBuffer4fullEv
+                0x0000000000000000       0x14
+ .text._ZN10RingBuffer4fullEv
+                0x0000000000000000       0x14 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::full()
+
+.text._ZN10RingBuffer4sizeEv
+                0x0000000000000000        0xc
+ .text._ZN10RingBuffer4sizeEv
+                0x0000000000000000        0xc lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::size()
+
+.text._ZN10RingBuffer3putEPKvj
+                0x0000000000000000       0x34
+ .text._ZN10RingBuffer3putEPKvj
+                0x0000000000000000       0x34 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::put(void const*, unsigned int)
+
+.text._ZN10RingBuffer3putEa
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEa
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::put(signed char)
+
+.text._ZN10RingBuffer3putEh
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEh
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::put(unsigned char)
+
+.text._ZN10RingBuffer3putEs
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEs
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::put(short)
+
+.text._ZN10RingBuffer3putEt
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEt
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::put(unsigned short)
+
+.text._ZN10RingBuffer3putEi
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEi
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::put(int)
+
+.text._ZN10RingBuffer3putEj
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEj
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::put(unsigned int)
+
+.text._ZN10RingBuffer3putEx
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEx
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::put(long long)
+
+.text._ZN10RingBuffer3putEy
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEy
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::put(unsigned long long)
+
+.text._ZN10RingBuffer3putEf
+                0x0000000000000000       0x14
+ .text._ZN10RingBuffer3putEf
+                0x0000000000000000       0x14 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::put(float)
+
+.text._ZN10RingBuffer3putEd
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEd
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::put(double)
+
+.text._ZN10RingBuffer3getEPvj
+                0x0000000000000000       0x62
+ .text._ZN10RingBuffer3getEPvj
+                0x0000000000000000       0x62 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::get(void*, unsigned int)
+
+.text._ZN10RingBuffer5flushEv
+                0x0000000000000000       0x1a
+ .text._ZN10RingBuffer5flushEv
+                0x0000000000000000       0x1a lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::flush()
+
+.text._ZN10RingBuffer5forceEPKvj
+                0x0000000000000000       0x28
+ .text._ZN10RingBuffer5forceEPKvj
+                0x0000000000000000       0x28 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::force(void const*, unsigned int)
+
+.text._ZN10RingBuffer5forceEa
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEa
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::force(signed char)
+
+.text._ZN10RingBuffer5forceEh
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEh
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::force(unsigned char)
+
+.text._ZN10RingBuffer5forceEs
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEs
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::force(short)
+
+.text._ZN10RingBuffer5forceEt
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEt
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::force(unsigned short)
+
+.text._ZN10RingBuffer5forceEi
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEi
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::force(int)
+
+.text._ZN10RingBuffer5forceEj
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEj
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::force(unsigned int)
+
+.text._ZN10RingBuffer5forceEx
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEx
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::force(long long)
+
+.text._ZN10RingBuffer5forceEy
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEy
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::force(unsigned long long)
+
+.text._ZN10RingBuffer5forceEf
+                0x0000000000000000       0x14
+ .text._ZN10RingBuffer5forceEf
+                0x0000000000000000       0x14 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::force(float)
+
+.text._ZN10RingBuffer5forceEd
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEd
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::force(double)
+
+.text._ZN10RingBuffer3getERa
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERa
+                0x0000000000000000        0x6 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::get(signed char&)
+
+.text._ZN10RingBuffer3getERh
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERh
+                0x0000000000000000        0x6 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::get(unsigned char&)
+
+.text._ZN10RingBuffer3getERs
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERs
+                0x0000000000000000        0x6 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::get(short&)
+
+.text._ZN10RingBuffer3getERt
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERt
+                0x0000000000000000        0x6 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::get(unsigned short&)
+
+.text._ZN10RingBuffer3getERi
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERi
+                0x0000000000000000        0x6 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::get(int&)
+
+.text._ZN10RingBuffer3getERj
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERj
+                0x0000000000000000        0x6 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::get(unsigned int&)
+
+.text._ZN10RingBuffer3getERx
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERx
+                0x0000000000000000        0x6 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::get(long long&)
+
+.text._ZN10RingBuffer3getERy
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERy
+                0x0000000000000000        0x6 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::get(unsigned long long&)
+
+.text._ZN10RingBuffer3getERf
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERf
+                0x0000000000000000        0x6 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::get(float&)
+
+.text._ZN10RingBuffer3getERd
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERd
+                0x0000000000000000        0x6 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::get(double&)
+
+.text._ZN10RingBuffer5spaceEv
+                0x0000000000000000       0x1a
+ .text._ZN10RingBuffer5spaceEv
+                0x0000000000000000       0x1a lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::space()
+
+.text._ZN10RingBuffer5countEv
+                0x0000000000000000        0xc
+ .text._ZN10RingBuffer5countEv
+                0x0000000000000000        0xc lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::count()
+
+.text._ZN10RingBuffer6resizeEj
+                0x0000000000000000       0x28
+ .text._ZN10RingBuffer6resizeEj
+                0x0000000000000000       0x28 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::resize(unsigned int)
+
+.text._ZN10RingBuffer10print_infoEPKc
+                0x0000000000000000       0x24
+ .text._ZN10RingBuffer10print_infoEPKc
+                0x0000000000000000       0x24 lsm303d.cpp.o
+                0x0000000000000000                RingBuffer::print_info(char const*)
+
+.text._ZN7LSM303D15accel_self_testEv
+                0x0000000000000000       0xbc
+ .text._ZN7LSM303D15accel_self_testEv
+                0x0000000000000000       0xbc lsm303d.cpp.o
+                0x0000000000000000                LSM303D::accel_self_test()
+
+.text._ZN7LSM303D13mag_self_testEv
+                0x0000000000000000       0x50
+ .text._ZN7LSM303D13mag_self_testEv
+                0x0000000000000000       0x50 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::mag_self_test()
+
+.text._ZN7LSM303D8read_regEj
+                0x0000000000000000       0x24
+ .text._ZN7LSM303D8read_regEj
+                0x0000000000000000       0x24 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::read_reg(unsigned int)
+
+.text._ZN7LSM303D5probeEv
+                0x0000000000000000       0x22
+ .text._ZN7LSM303D5probeEv
+                0x0000000000000000       0x22 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::probe()
+
+.text._ZN7LSM303D9write_regEjh
+                0x0000000000000000       0x1a
+ .text._ZN7LSM303D9write_regEjh
+                0x0000000000000000       0x1a lsm303d.cpp.o
+                0x0000000000000000                LSM303D::write_reg(unsigned int, unsigned char)
+
+.text._ZN7LSM303D11disable_i2cEv
+                0x0000000000000000       0x5a
+ .text._ZN7LSM303D11disable_i2cEv
+                0x0000000000000000       0x5a lsm303d.cpp.o
+                0x0000000000000000                LSM303D::disable_i2c()
+
+.text._ZN7LSM303D17write_checked_regEjh
+                0x0000000000000000       0x2c
+ .text._ZN7LSM303D17write_checked_regEjh
+                0x0000000000000000       0x2c lsm303d.cpp.o
+                0x0000000000000000                LSM303D::write_checked_reg(unsigned int, unsigned char)
+
+.text._ZN7LSM303D10modify_regEjhh
+                0x0000000000000000       0x22
+ .text._ZN7LSM303D10modify_regEjhh
+                0x0000000000000000       0x22 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::modify_reg(unsigned int, unsigned char, unsigned char)
+
+.text._ZN7LSM303D15accel_set_rangeEj
+                0x0000000000000000       0x94
+ .text._ZN7LSM303D15accel_set_rangeEj
+                0x0000000000000000       0x94 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::accel_set_range(unsigned int)
+
+.text._ZN7LSM303D13mag_set_rangeEj
+                0x0000000000000000       0x68
+ .text._ZN7LSM303D13mag_set_rangeEj
+                0x0000000000000000       0x68 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::mag_set_range(unsigned int)
+
+.text._ZN7LSM303D41accel_set_onchip_lowpass_filter_bandwidthEj
+                0x0000000000000000       0x56
+ .text._ZN7LSM303D41accel_set_onchip_lowpass_filter_bandwidthEj
+                0x0000000000000000       0x56 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::accel_set_onchip_lowpass_filter_bandwidth(unsigned int)
+
+.text._ZN7LSM303D31accel_set_driver_lowpass_filterEff
+                0x0000000000000000       0x40
+ .text._ZN7LSM303D31accel_set_driver_lowpass_filterEff
+                0x0000000000000000       0x40 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::accel_set_driver_lowpass_filter(float, float)
+
+.text._ZN7LSM303D20accel_set_samplerateEj
+                0x0000000000000000       0x70
+ .text._ZN7LSM303D20accel_set_samplerateEj
+                0x0000000000000000       0x70 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::accel_set_samplerate(unsigned int)
+
+.text._ZN7LSM303D18mag_set_samplerateEj
+                0x0000000000000000       0x3e
+ .text._ZN7LSM303D18mag_set_samplerateEj
+                0x0000000000000000       0x3e lsm303d.cpp.o
+                0x0000000000000000                LSM303D::mag_set_samplerate(unsigned int)
+
+.text._ZN7LSM303D5resetEv
+                0x0000000000000000       0x84
+ .text._ZN7LSM303D5resetEv
+                0x0000000000000000       0x84 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::reset()
+
+.text._ZN7LSM303D4stopEv
+                0x0000000000000000       0x16
+ .text._ZN7LSM303D4stopEv
+                0x0000000000000000       0x16 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::stop()
+
+.text._ZN7LSM303DD2Ev
+                0x0000000000000000       0x78
+ .text._ZN7LSM303DD2Ev
+                0x0000000000000000       0x78 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::~LSM303D()
+                0x0000000000000000                LSM303D::~LSM303D()
+
+.text._ZN7LSM303DD0Ev
+                0x0000000000000000       0x12
+ .text._ZN7LSM303DD0Ev
+                0x0000000000000000       0x12 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::~LSM303D()
+
+.text._ZN7LSM303D5startEv
+                0x0000000000000000       0x60
+ .text._ZN7LSM303D5startEv
+                0x0000000000000000       0x60 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::start()
+
+.text._ZN7LSM303D15check_registersEv
+                0x0000000000000000       0x54
+ .text._ZN7LSM303D15check_registersEv
+                0x0000000000000000       0x54 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::check_registers()
+
+.text._ZN7LSM303D7measureEv
+                0x0000000000000000      0x254
+ .text._ZN7LSM303D7measureEv
+                0x0000000000000000      0x254 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::measure()
+
+.text._ZN7LSM303D4readEP4filePcj
+                0x0000000000000000       0x5a
+ .text._ZN7LSM303D4readEP4filePcj
+                0x0000000000000000       0x5a lsm303d.cpp.o
+                0x0000000000000000                LSM303D::read(file*, char*, unsigned int)
+
+.text._ZN7LSM303D18measure_trampolineEPv
+                0x0000000000000000        0x4
+ .text._ZN7LSM303D18measure_trampolineEPv
+                0x0000000000000000        0x4 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::measure_trampoline(void*)
+
+.text._ZN7LSM303D11mag_measureEv
+                0x0000000000000000      0x168
+ .text._ZN7LSM303D11mag_measureEv
+                0x0000000000000000      0x168 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::mag_measure()
+
+.text._ZN7LSM303D22mag_measure_trampolineEPv
+                0x0000000000000000        0x4
+ .text._ZN7LSM303D22mag_measure_trampolineEPv
+                0x0000000000000000        0x4 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::mag_measure_trampoline(void*)
+
+.text._ZN7LSM303D10print_infoEv
+                0x0000000000000000       0xbc
+ .text._ZN7LSM303D10print_infoEv
+                0x0000000000000000       0xbc lsm303d.cpp.o
+                0x0000000000000000                LSM303D::print_info()
+
+.text._ZN7LSM303D15print_registersEv
+                0x0000000000000000       0x40
+ .text._ZN7LSM303D15print_registersEv
+                0x0000000000000000       0x40 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::print_registers()
+
+.text._ZN7LSM303D10test_errorEv
+                0x0000000000000000        0x8
+ .text._ZN7LSM303D10test_errorEv
+                0x0000000000000000        0x8 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::test_error()
+
+.text._ZN11LSM303D_magC2EP7LSM303D
+                0x0000000000000000       0x30
+ .text._ZN11LSM303D_magC2EP7LSM303D
+                0x0000000000000000       0x30 lsm303d.cpp.o
+                0x0000000000000000                LSM303D_mag::LSM303D_mag(LSM303D*)
+                0x0000000000000000                LSM303D_mag::LSM303D_mag(LSM303D*)
+
+.text._ZN7LSM303DC2EiPKc9spi_dev_e8Rotation
+                0x0000000000000000      0x214
+ .text._ZN7LSM303DC2EiPKc9spi_dev_e8Rotation
+                0x0000000000000000      0x214 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::LSM303D(int, char const*, spi_dev_e, Rotation)
+                0x0000000000000000                LSM303D::LSM303D(int, char const*, spi_dev_e, Rotation)
+
+.text._ZN11LSM303D_mag18parent_poll_notifyEv
+                0x0000000000000000        0xc
+ .text._ZN11LSM303D_mag18parent_poll_notifyEv
+                0x0000000000000000        0xc lsm303d.cpp.o
+                0x0000000000000000                LSM303D_mag::parent_poll_notify()
+
+.text._ZN11LSM303D_mag7measureEv
+                0x0000000000000000        0x6
+ .text._ZN11LSM303D_mag7measureEv
+                0x0000000000000000        0x6 lsm303d.cpp.o
+                0x0000000000000000                LSM303D_mag::measure()
+
+.text._ZN7LSM303D8mag_readEP4filePcj
+                0x0000000000000000       0x64
+ .text._ZN7LSM303D8mag_readEP4filePcj
+                0x0000000000000000       0x64 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::mag_read(file*, char*, unsigned int)
+
+.text._ZN11LSM303D_mag18measure_trampolineEPv
+                0x0000000000000000        0x6
+ .text._ZN11LSM303D_mag18measure_trampolineEPv
+                0x0000000000000000        0x6 lsm303d.cpp.o
+                0x0000000000000000                LSM303D_mag::measure_trampoline(void*)
+
+.text._ZN7lsm303d5startEb8Rotation
+                0x0000000000000000       0xcc
+ .text._ZN7lsm303d5startEb8Rotation
+                0x0000000000000000       0xcc lsm303d.cpp.o
+                0x0000000000000000                lsm303d::start(bool, Rotation)
+
+.text._ZN7lsm303d5resetEv
+                0x0000000000000000       0x9c
+ .text._ZN7lsm303d5resetEv
+                0x0000000000000000       0x9c lsm303d.cpp.o
+                0x0000000000000000                lsm303d::reset()
+
+.text._ZN7lsm303d4testEv
+                0x0000000000000000      0x1c0
+ .text._ZN7lsm303d4testEv
+                0x0000000000000000      0x1c0 lsm303d.cpp.o
+                0x0000000000000000                lsm303d::test()
+
+.text._ZN7lsm303d4infoEv
+                0x0000000000000000       0x30
+ .text._ZN7lsm303d4infoEv
+                0x0000000000000000       0x30 lsm303d.cpp.o
+                0x0000000000000000                lsm303d::info()
+
+.text._ZN7lsm303d7regdumpEv
+                0x0000000000000000       0x30
+ .text._ZN7lsm303d7regdumpEv
+                0x0000000000000000       0x30 lsm303d.cpp.o
+                0x0000000000000000                lsm303d::regdump()
+
+.text._ZN7lsm303d10test_errorEv
+                0x0000000000000000       0x24
+ .text._ZN7lsm303d10test_errorEv
+                0x0000000000000000       0x24 lsm303d.cpp.o
+                0x0000000000000000                lsm303d::test_error()
+
+.text._ZN7lsm303d5usageEv
+                0x0000000000000000       0x30
+ .text._ZN7lsm303d5usageEv
+                0x0000000000000000       0x30 lsm303d.cpp.o
+                0x0000000000000000                lsm303d::usage()
+
+.text.lsm303d_main
+                0x0000000000000000       0xd0
+ .text.lsm303d_main
+                0x0000000000000000       0xd0 lsm303d.cpp.o
+                0x0000000000000000                lsm303d_main
+
+.text._ZN7LSM303D4initEv
+                0x0000000000000000       0xec
+ .text._ZN7LSM303D4initEv
+                0x0000000000000000       0xec lsm303d.cpp.o
+                0x0000000000000000                LSM303D::init()
+
+.text._ZN7LSM303D5ioctlEP4fileim
+                0x0000000000000000      0x260
+ .text._ZN7LSM303D5ioctlEP4fileim
+                0x0000000000000000      0x260 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::ioctl(file*, int, unsigned long)
+
+.text._ZN7LSM303D9mag_ioctlEP4fileim
+                0x0000000000000000      0x1a4
+ .text._ZN7LSM303D9mag_ioctlEP4fileim
+                0x0000000000000000      0x1a4 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::mag_ioctl(file*, int, unsigned long)
+
+.text._ZN11LSM303D_mag5ioctlEP4fileim
+                0x0000000000000000       0x1a
+ .text._ZN11LSM303D_mag5ioctlEP4fileim
+                0x0000000000000000       0x1a lsm303d.cpp.o
+                0x0000000000000000                LSM303D_mag::ioctl(file*, int, unsigned long)
+
+.text._ZN11LSM303D_mag4initEv
+                0x0000000000000000       0x20
+ .text._ZN11LSM303D_mag4initEv
+                0x0000000000000000       0x20 lsm303d.cpp.o
+                0x0000000000000000                LSM303D_mag::init()
+
+.fini
+ *(SORT(.fini))
+
+.rodata         0x0000000000000000      0x160
+ *(.rodata)
+ .rodata        0x0000000000000000      0x160 lsm303d.cpp.o
+
+.rodata._ZTV11LSM303D_mag
+                0x0000000000000000       0x60
+ .rodata._ZTV11LSM303D_mag
+                0x0000000000000000       0x60 lsm303d.cpp.o
+                0x0000000000000000                vtable for LSM303D_mag
+
+.rodata.str1.1  0x0000000000000000      0x6ff
+ .rodata.str1.1
+                0x0000000000000000      0x6ff lsm303d.cpp.o
+
+.rodata._ZTV10RingBuffer
+                0x0000000000000000       0x10
+ .rodata._ZTV10RingBuffer
+                0x0000000000000000       0x10 lsm303d.cpp.o
+                0x0000000000000000                vtable for RingBuffer
+
+.rodata._ZN7LSM303D18_checked_registersE
+                0x0000000000000000        0x8
+ .rodata._ZN7LSM303D18_checked_registersE
+                0x0000000000000000        0x8 lsm303d.cpp.o
+                0x0000000000000000                LSM303D::_checked_registers
+
+.rodata._ZTV7LSM303D
+                0x0000000000000000       0x68
+ .rodata._ZTV7LSM303D
+                0x0000000000000000       0x68 lsm303d.cpp.o
+                0x0000000000000000                vtable for LSM303D
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x0000000000000000        0x0
+ *(.data)
+ .data          0x0000000000000000        0x0 lsm303d.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x0000000000000000        0x0 lsm303d.cpp.o
+ *(COMMON)
+
+.bss._ZN7lsm303d5g_devE
+                0x0000000000000000        0x4
+ .bss._ZN7lsm303d5g_devE
+                0x0000000000000000        0x4 lsm303d.cpp.o
+                0x0000000000000000                lsm303d::g_dev
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x71
+ *(.comment)
+ .comment       0x0000000000000000       0x71 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 lsm303d.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x310
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x310 lsm303d.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xb89a
+ *(.debug_info)
+ .debug_info    0x0000000000000000     0xb89a lsm303d.cpp.o
+
+.debug_abbrev   0x0000000000000000      0xa76
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0xa76 lsm303d.cpp.o
+
+.debug_line     0x0000000000000000     0x2826
+ *(.debug_line)
+ .debug_line    0x0000000000000000     0x2826 lsm303d.cpp.o
+
+.debug_frame    0x0000000000000000      0x94c
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x94c lsm303d.cpp.o
+
+.debug_str      0x0000000000000000    0x50866
+ *(.debug_str)
+ .debug_str     0x0000000000000000    0x50866 lsm303d.cpp.o
+
+.debug_loc      0x0000000000000000     0x315b
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x315b lsm303d.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x490
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x490 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0xa0b
+ *(.debug_macro)
+ .debug_macro   0x0000000000000000      0xa0b lsm303d.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x0000000000000000       0x35
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x35 lsm303d.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4fmu-v2_APM.build//Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/src/drivers/lsm303d/module.pre.o elf32-littlearm)
+
+.debug_macro    0x0000000000000000      0x8bc
+ .debug_macro   0x0000000000000000      0x8bc lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x89f
+ .debug_macro   0x0000000000000000      0x89f lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0xc9
+ .debug_macro   0x0000000000000000       0xc9 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x88
+ .debug_macro   0x0000000000000000       0x88 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x14e
+ .debug_macro   0x0000000000000000      0x14e lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x125
+ .debug_macro   0x0000000000000000      0x125 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x5d
+ .debug_macro   0x0000000000000000       0x5d lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x49
+ .debug_macro   0x0000000000000000       0x49 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0xcb
+ .debug_macro   0x0000000000000000       0xcb lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x5e
+ .debug_macro   0x0000000000000000       0x5e lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x23
+ .debug_macro   0x0000000000000000       0x23 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x14d
+ .debug_macro   0x0000000000000000      0x14d lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x59
+ .debug_macro   0x0000000000000000       0x59 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x6c1
+ .debug_macro   0x0000000000000000      0x6c1 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x58
+ .debug_macro   0x0000000000000000       0x58 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x4c
+ .debug_macro   0x0000000000000000       0x4c lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x10c
+ .debug_macro   0x0000000000000000      0x10c lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0xd1
+ .debug_macro   0x0000000000000000       0xd1 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x98
+ .debug_macro   0x0000000000000000       0x98 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x59
+ .debug_macro   0x0000000000000000       0x59 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x11b
+ .debug_macro   0x0000000000000000      0x11b lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x46
+ .debug_macro   0x0000000000000000       0x46 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x27f
+ .debug_macro   0x0000000000000000      0x27f lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x195
+ .debug_macro   0x0000000000000000      0x195 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x8a
+ .debug_macro   0x0000000000000000       0x8a lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x39
+ .debug_macro   0x0000000000000000       0x39 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0xb4
+ .debug_macro   0x0000000000000000       0xb4 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x41
+ .debug_macro   0x0000000000000000       0x41 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x4d
+ .debug_macro   0x0000000000000000       0x4d lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x58
+ .debug_macro   0x0000000000000000       0x58 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x2e
+ .debug_macro   0x0000000000000000       0x2e lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0xa3
+ .debug_macro   0x0000000000000000       0xa3 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x281
+ .debug_macro   0x0000000000000000      0x281 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x29
+ .debug_macro   0x0000000000000000       0x29 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x2b
+ .debug_macro   0x0000000000000000       0x2b lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x167
+ .debug_macro   0x0000000000000000      0x167 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x30
+ .debug_macro   0x0000000000000000       0x30 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x19
+ .debug_macro   0x0000000000000000       0x19 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0xc1
+ .debug_macro   0x0000000000000000       0xc1 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x18
+ .debug_macro   0x0000000000000000       0x18 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x78
+ .debug_macro   0x0000000000000000       0x78 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x9a
+ .debug_macro   0x0000000000000000       0x9a lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x1cf
+ .debug_macro   0x0000000000000000      0x1cf lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x16c
+ .debug_macro   0x0000000000000000      0x16c lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x46
+ .debug_macro   0x0000000000000000       0x46 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x88
+ .debug_macro   0x0000000000000000       0x88 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x72
+ .debug_macro   0x0000000000000000       0x72 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x7e
+ .debug_macro   0x0000000000000000       0x7e lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x78
+ .debug_macro   0x0000000000000000       0x78 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x6cb
+ .debug_macro   0x0000000000000000      0x6cb lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x20a
+ .debug_macro   0x0000000000000000      0x20a lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0xf6f
+ .debug_macro   0x0000000000000000      0xf6f lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x2ab
+ .debug_macro   0x0000000000000000      0x2ab lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x8b5
+ .debug_macro   0x0000000000000000      0x8b5 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x14e
+ .debug_macro   0x0000000000000000      0x14e lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x7ca
+ .debug_macro   0x0000000000000000      0x7ca lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0xff
+ .debug_macro   0x0000000000000000       0xff lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0xae7
+ .debug_macro   0x0000000000000000      0xae7 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x51
+ .debug_macro   0x0000000000000000       0x51 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x11a
+ .debug_macro   0x0000000000000000      0x11a lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x1d
+ .debug_macro   0x0000000000000000       0x1d lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x206
+ .debug_macro   0x0000000000000000      0x206 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x56a
+ .debug_macro   0x0000000000000000      0x56a lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x9c
+ .debug_macro   0x0000000000000000       0x9c lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x2bf
+ .debug_macro   0x0000000000000000      0x2bf lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0xd3
+ .debug_macro   0x0000000000000000       0xd3 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x34
+ .debug_macro   0x0000000000000000       0x34 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0xab0
+ .debug_macro   0x0000000000000000      0xab0 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x17
+ .debug_macro   0x0000000000000000       0x17 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x6fa
+ .debug_macro   0x0000000000000000      0x6fa lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x596
+ .debug_macro   0x0000000000000000      0x596 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x29b
+ .debug_macro   0x0000000000000000      0x29b lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000     0x15a4
+ .debug_macro   0x0000000000000000     0x15a4 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x53
+ .debug_macro   0x0000000000000000       0x53 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x347
+ .debug_macro   0x0000000000000000      0x347 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x96
+ .debug_macro   0x0000000000000000       0x96 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x413
+ .debug_macro   0x0000000000000000      0x413 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x5f
+ .debug_macro   0x0000000000000000       0x5f lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x1d
+ .debug_macro   0x0000000000000000       0x1d lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0xdf
+ .debug_macro   0x0000000000000000       0xdf lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x13f
+ .debug_macro   0x0000000000000000      0x13f lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0xdb4
+ .debug_macro   0x0000000000000000      0xdb4 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x21b
+ .debug_macro   0x0000000000000000      0x21b lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000      0x24d
+ .debug_macro   0x0000000000000000      0x24d lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x20
+ .debug_macro   0x0000000000000000       0x20 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x3b
+ .debug_macro   0x0000000000000000       0x3b lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x2d
+ .debug_macro   0x0000000000000000       0x2d lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0x42
+ .debug_macro   0x0000000000000000       0x42 lsm303d.cpp.o
+
+.debug_macro    0x0000000000000000       0xac
+ .debug_macro   0x0000000000000000       0xac lsm303d.cpp.o

@@ -1,0 +1,1320 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD airspeed.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT(.init))
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x0000000000000000        0x0
+ *(.text .stub)
+ .text          0x0000000000000000        0x0 airspeed.cpp.o
+ *(.gnu.warning)
+
+.text._ZN8Airspeed5probeEv
+                0x0000000000000000       0x14
+ .text._ZN8Airspeed5probeEv
+                0x0000000000000000       0x14 airspeed.cpp.o
+                0x0000000000000000                Airspeed::probe()
+
+.text._ZN8Airspeed16cycle_trampolineEPv
+                0x0000000000000000        0xa
+ .text._ZN8Airspeed16cycle_trampolineEPv
+                0x0000000000000000        0xa airspeed.cpp.o
+                0x0000000000000000                Airspeed::cycle_trampoline(void*)
+
+.text._ZN10RingBufferD2Ev
+                0x0000000000000000       0x18
+ .text._ZN10RingBufferD2Ev
+                0x0000000000000000       0x18 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::~RingBuffer()
+                0x0000000000000000                RingBuffer::~RingBuffer()
+
+.text._ZN10RingBufferD0Ev
+                0x0000000000000000       0x12
+ .text._ZN10RingBufferD0Ev
+                0x0000000000000000       0x12 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::~RingBuffer()
+
+.text._ZN10RingBufferC2Ejj
+                0x0000000000000000       0x24
+ .text._ZN10RingBufferC2Ejj
+                0x0000000000000000       0x24 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::RingBuffer(unsigned int, unsigned int)
+                0x0000000000000000                RingBuffer::RingBuffer(unsigned int, unsigned int)
+
+.text._ZN10RingBuffer5_nextEj
+                0x0000000000000000        0xa
+ .text._ZN10RingBuffer5_nextEj
+                0x0000000000000000        0xa airspeed.cpp.o
+                0x0000000000000000                RingBuffer::_next(unsigned int)
+
+.text._ZN10RingBuffer5emptyEv
+                0x0000000000000000        0xc
+ .text._ZN10RingBuffer5emptyEv
+                0x0000000000000000        0xc airspeed.cpp.o
+                0x0000000000000000                RingBuffer::empty()
+
+.text._ZN10RingBuffer4fullEv
+                0x0000000000000000       0x14
+ .text._ZN10RingBuffer4fullEv
+                0x0000000000000000       0x14 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::full()
+
+.text._ZN10RingBuffer4sizeEv
+                0x0000000000000000        0xc
+ .text._ZN10RingBuffer4sizeEv
+                0x0000000000000000        0xc airspeed.cpp.o
+                0x0000000000000000                RingBuffer::size()
+
+.text._ZN10RingBuffer3putEPKvj
+                0x0000000000000000       0x34
+ .text._ZN10RingBuffer3putEPKvj
+                0x0000000000000000       0x34 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(void const*, unsigned int)
+
+.text._ZN10RingBuffer3putEa
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEa
+                0x0000000000000000       0x16 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(signed char)
+
+.text._ZN10RingBuffer3putEh
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEh
+                0x0000000000000000       0x16 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(unsigned char)
+
+.text._ZN10RingBuffer3putEs
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEs
+                0x0000000000000000       0x16 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(short)
+
+.text._ZN10RingBuffer3putEt
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEt
+                0x0000000000000000       0x16 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(unsigned short)
+
+.text._ZN10RingBuffer3putEi
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEi
+                0x0000000000000000       0x16 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(int)
+
+.text._ZN10RingBuffer3putEj
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEj
+                0x0000000000000000       0x16 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(unsigned int)
+
+.text._ZN10RingBuffer3putEx
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEx
+                0x0000000000000000       0x16 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(long long)
+
+.text._ZN10RingBuffer3putEy
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEy
+                0x0000000000000000       0x16 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(unsigned long long)
+
+.text._ZN10RingBuffer3putEf
+                0x0000000000000000       0x14
+ .text._ZN10RingBuffer3putEf
+                0x0000000000000000       0x14 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(float)
+
+.text._ZN10RingBuffer3putEd
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEd
+                0x0000000000000000       0x16 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(double)
+
+.text._ZN10RingBuffer3getEPvj
+                0x0000000000000000       0x62
+ .text._ZN10RingBuffer3getEPvj
+                0x0000000000000000       0x62 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(void*, unsigned int)
+
+.text._ZN10RingBuffer5flushEv
+                0x0000000000000000       0x1a
+ .text._ZN10RingBuffer5flushEv
+                0x0000000000000000       0x1a airspeed.cpp.o
+                0x0000000000000000                RingBuffer::flush()
+
+.text._ZN10RingBuffer5forceEPKvj
+                0x0000000000000000       0x28
+ .text._ZN10RingBuffer5forceEPKvj
+                0x0000000000000000       0x28 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(void const*, unsigned int)
+
+.text._ZN10RingBuffer5forceEa
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEa
+                0x0000000000000000       0x16 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(signed char)
+
+.text._ZN10RingBuffer5forceEh
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEh
+                0x0000000000000000       0x16 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(unsigned char)
+
+.text._ZN10RingBuffer5forceEs
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEs
+                0x0000000000000000       0x16 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(short)
+
+.text._ZN10RingBuffer5forceEt
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEt
+                0x0000000000000000       0x16 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(unsigned short)
+
+.text._ZN10RingBuffer5forceEi
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEi
+                0x0000000000000000       0x16 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(int)
+
+.text._ZN10RingBuffer5forceEj
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEj
+                0x0000000000000000       0x16 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(unsigned int)
+
+.text._ZN10RingBuffer5forceEx
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEx
+                0x0000000000000000       0x16 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(long long)
+
+.text._ZN10RingBuffer5forceEy
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEy
+                0x0000000000000000       0x16 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(unsigned long long)
+
+.text._ZN10RingBuffer5forceEf
+                0x0000000000000000       0x14
+ .text._ZN10RingBuffer5forceEf
+                0x0000000000000000       0x14 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(float)
+
+.text._ZN10RingBuffer5forceEd
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEd
+                0x0000000000000000       0x16 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(double)
+
+.text._ZN8Airspeed4readEP4filePcj
+                0x0000000000000000       0x7a
+ .text._ZN8Airspeed4readEP4filePcj
+                0x0000000000000000       0x7a airspeed.cpp.o
+                0x0000000000000000                Airspeed::read(file*, char*, unsigned int)
+
+.text._ZN10RingBuffer3getERa
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERa
+                0x0000000000000000        0x6 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(signed char&)
+
+.text._ZN10RingBuffer3getERh
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERh
+                0x0000000000000000        0x6 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(unsigned char&)
+
+.text._ZN10RingBuffer3getERs
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERs
+                0x0000000000000000        0x6 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(short&)
+
+.text._ZN10RingBuffer3getERt
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERt
+                0x0000000000000000        0x6 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(unsigned short&)
+
+.text._ZN10RingBuffer3getERi
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERi
+                0x0000000000000000        0x6 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(int&)
+
+.text._ZN10RingBuffer3getERj
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERj
+                0x0000000000000000        0x6 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(unsigned int&)
+
+.text._ZN10RingBuffer3getERx
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERx
+                0x0000000000000000        0x6 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(long long&)
+
+.text._ZN10RingBuffer3getERy
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERy
+                0x0000000000000000        0x6 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(unsigned long long&)
+
+.text._ZN10RingBuffer3getERf
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERf
+                0x0000000000000000        0x6 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(float&)
+
+.text._ZN10RingBuffer3getERd
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERd
+                0x0000000000000000        0x6 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(double&)
+
+.text._ZN10RingBuffer5spaceEv
+                0x0000000000000000       0x1a
+ .text._ZN10RingBuffer5spaceEv
+                0x0000000000000000       0x1a airspeed.cpp.o
+                0x0000000000000000                RingBuffer::space()
+
+.text._ZN10RingBuffer5countEv
+                0x0000000000000000        0xc
+ .text._ZN10RingBuffer5countEv
+                0x0000000000000000        0xc airspeed.cpp.o
+                0x0000000000000000                RingBuffer::count()
+
+.text._ZN10RingBuffer6resizeEj
+                0x0000000000000000       0x28
+ .text._ZN10RingBuffer6resizeEj
+                0x0000000000000000       0x28 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::resize(unsigned int)
+
+.text._ZN10RingBuffer10print_infoEPKc
+                0x0000000000000000       0x24
+ .text._ZN10RingBuffer10print_infoEPKc
+                0x0000000000000000       0x24 airspeed.cpp.o
+                0x0000000000000000                RingBuffer::print_info(char const*)
+
+.text._ZN8Airspeed10print_infoEv
+                0x0000000000000000       0x38
+ .text._ZN8Airspeed10print_infoEv
+                0x0000000000000000       0x38 airspeed.cpp.o
+                0x0000000000000000                Airspeed::print_info()
+
+.text._ZN8AirspeedC2EiijPKc
+                0x0000000000000000       0xa4
+ .text._ZN8AirspeedC2EiijPKc
+                0x0000000000000000       0xa4 airspeed.cpp.o
+                0x0000000000000000                Airspeed::Airspeed(int, int, unsigned int, char const*)
+                0x0000000000000000                Airspeed::Airspeed(int, int, unsigned int, char const*)
+
+.text._ZN8Airspeed5startEv
+                0x0000000000000000       0x2c
+ .text._ZN8Airspeed5startEv
+                0x0000000000000000       0x2c airspeed.cpp.o
+                0x0000000000000000                Airspeed::start()
+
+.text._ZN8Airspeed4stopEv
+                0x0000000000000000        0xa
+ .text._ZN8Airspeed4stopEv
+                0x0000000000000000        0xa airspeed.cpp.o
+                0x0000000000000000                Airspeed::stop()
+
+.text._ZN8AirspeedD2Ev
+                0x0000000000000000       0x50
+ .text._ZN8AirspeedD2Ev
+                0x0000000000000000       0x50 airspeed.cpp.o
+                0x0000000000000000                Airspeed::~Airspeed()
+                0x0000000000000000                Airspeed::~Airspeed()
+
+.text._ZN8AirspeedD0Ev
+                0x0000000000000000       0x12
+ .text._ZN8AirspeedD0Ev
+                0x0000000000000000       0x12 airspeed.cpp.o
+                0x0000000000000000                Airspeed::~Airspeed()
+
+.text._ZN8Airspeed13update_statusEv
+                0x0000000000000000       0x54
+ .text._ZN8Airspeed13update_statusEv
+                0x0000000000000000       0x54 airspeed.cpp.o
+                0x0000000000000000                Airspeed::update_status()
+
+.text._ZN8Airspeed10new_reportERK23differential_pressure_s
+                0x0000000000000000       0x1a
+ .text._ZN8Airspeed10new_reportERK23differential_pressure_s
+                0x0000000000000000       0x1a airspeed.cpp.o
+                0x0000000000000000                Airspeed::new_report(differential_pressure_s const&)
+
+.text._ZN8Airspeed4initEv
+                0x0000000000000000       0x7c
+ .text._ZN8Airspeed4initEv
+                0x0000000000000000       0x7c airspeed.cpp.o
+                0x0000000000000000                Airspeed::init()
+
+.text._ZN8Airspeed5ioctlEP4fileim
+                0x0000000000000000      0x130
+ .text._ZN8Airspeed5ioctlEP4fileim
+                0x0000000000000000      0x130 airspeed.cpp.o
+                0x0000000000000000                Airspeed::ioctl(file*, int, unsigned long)
+
+.fini
+ *(SORT(.fini))
+
+.rodata
+ *(.rodata)
+
+.rodata.str1.1  0x0000000000000000       0xa0
+ .rodata.str1.1
+                0x0000000000000000       0xa0 airspeed.cpp.o
+
+.rodata._ZTV10RingBuffer
+                0x0000000000000000       0x10
+ .rodata._ZTV10RingBuffer
+                0x0000000000000000       0x10 airspeed.cpp.o
+                0x0000000000000000                vtable for RingBuffer
+
+.rodata._ZTV8Airspeed
+                0x0000000000000000       0x70
+ .rodata._ZTV8Airspeed
+                0x0000000000000000       0x70 airspeed.cpp.o
+                0x0000000000000000                vtable for Airspeed
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x0000000000000000        0x0
+ *(.data)
+ .data          0x0000000000000000        0x0 airspeed.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x0000000000000000        0x0 airspeed.cpp.o
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x71
+ *(.comment)
+ .comment       0x0000000000000000       0x71 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 airspeed.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x1e8
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x1e8 airspeed.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x6b5e
+ *(.debug_info)
+ .debug_info    0x0000000000000000     0x6b5e airspeed.cpp.o
+
+.debug_abbrev   0x0000000000000000      0x7b6
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x7b6 airspeed.cpp.o
+
+.debug_line     0x0000000000000000     0x1f30
+ *(.debug_line)
+ .debug_line    0x0000000000000000     0x1f30 airspeed.cpp.o
+
+.debug_frame    0x0000000000000000      0x594
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x594 airspeed.cpp.o
+
+.debug_str      0x0000000000000000    0x4ab02
+ *(.debug_str)
+ .debug_str     0x0000000000000000    0x4ab02 airspeed.cpp.o
+
+.debug_loc      0x0000000000000000     0x166b
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x166b airspeed.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x288
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x288 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x6ce
+ *(.debug_macro)
+ .debug_macro   0x0000000000000000      0x6ce airspeed.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x0000000000000000       0x35
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x35 airspeed.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4fmu-v2_APM.build//Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/src/drivers/airspeed/module.pre.o elf32-littlearm)
+
+.debug_macro    0x0000000000000000      0x8bc
+ .debug_macro   0x0000000000000000      0x8bc airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x89f
+ .debug_macro   0x0000000000000000      0x89f airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0xc9
+ .debug_macro   0x0000000000000000       0xc9 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x6bb
+ .debug_macro   0x0000000000000000      0x6bb airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x88
+ .debug_macro   0x0000000000000000       0x88 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x14e
+ .debug_macro   0x0000000000000000      0x14e airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x125
+ .debug_macro   0x0000000000000000      0x125 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x5d
+ .debug_macro   0x0000000000000000       0x5d airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x23
+ .debug_macro   0x0000000000000000       0x23 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x53
+ .debug_macro   0x0000000000000000       0x53 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x39
+ .debug_macro   0x0000000000000000       0x39 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x9c
+ .debug_macro   0x0000000000000000       0x9c airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x5e
+ .debug_macro   0x0000000000000000       0x5e airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x14d
+ .debug_macro   0x0000000000000000      0x14d airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x58
+ .debug_macro   0x0000000000000000       0x58 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x4c
+ .debug_macro   0x0000000000000000       0x4c airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x49
+ .debug_macro   0x0000000000000000       0x49 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x106
+ .debug_macro   0x0000000000000000      0x106 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0xd1
+ .debug_macro   0x0000000000000000       0xd1 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x98
+ .debug_macro   0x0000000000000000       0x98 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x59
+ .debug_macro   0x0000000000000000       0x59 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x11b
+ .debug_macro   0x0000000000000000      0x11b airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x46
+ .debug_macro   0x0000000000000000       0x46 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x27f
+ .debug_macro   0x0000000000000000      0x27f airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x195
+ .debug_macro   0x0000000000000000      0x195 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x8a
+ .debug_macro   0x0000000000000000       0x8a airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0xb4
+ .debug_macro   0x0000000000000000       0xb4 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x41
+ .debug_macro   0x0000000000000000       0x41 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x4d
+ .debug_macro   0x0000000000000000       0x4d airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x58
+ .debug_macro   0x0000000000000000       0x58 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x2e
+ .debug_macro   0x0000000000000000       0x2e airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0xa3
+ .debug_macro   0x0000000000000000       0xa3 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x281
+ .debug_macro   0x0000000000000000      0x281 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x19
+ .debug_macro   0x0000000000000000       0x19 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x4d
+ .debug_macro   0x0000000000000000       0x4d airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0xc1
+ .debug_macro   0x0000000000000000       0xc1 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x78
+ .debug_macro   0x0000000000000000       0x78 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x6cb
+ .debug_macro   0x0000000000000000      0x6cb airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x20a
+ .debug_macro   0x0000000000000000      0x20a airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0xf6f
+ .debug_macro   0x0000000000000000      0xf6f airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x2ab
+ .debug_macro   0x0000000000000000      0x2ab airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x8b5
+ .debug_macro   0x0000000000000000      0x8b5 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x78
+ .debug_macro   0x0000000000000000       0x78 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x14e
+ .debug_macro   0x0000000000000000      0x14e airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x7ca
+ .debug_macro   0x0000000000000000      0x7ca airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0xff
+ .debug_macro   0x0000000000000000       0xff airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0xae7
+ .debug_macro   0x0000000000000000      0xae7 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x51
+ .debug_macro   0x0000000000000000       0x51 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x11a
+ .debug_macro   0x0000000000000000      0x11a airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x1d
+ .debug_macro   0x0000000000000000       0x1d airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x206
+ .debug_macro   0x0000000000000000      0x206 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x56a
+ .debug_macro   0x0000000000000000      0x56a airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x2bf
+ .debug_macro   0x0000000000000000      0x2bf airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0xd3
+ .debug_macro   0x0000000000000000       0xd3 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x34
+ .debug_macro   0x0000000000000000       0x34 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0xab0
+ .debug_macro   0x0000000000000000      0xab0 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x17
+ .debug_macro   0x0000000000000000       0x17 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x6fa
+ .debug_macro   0x0000000000000000      0x6fa airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x596
+ .debug_macro   0x0000000000000000      0x596 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x29b
+ .debug_macro   0x0000000000000000      0x29b airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000     0x15a4
+ .debug_macro   0x0000000000000000     0x15a4 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x53
+ .debug_macro   0x0000000000000000       0x53 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x347
+ .debug_macro   0x0000000000000000      0x347 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x96
+ .debug_macro   0x0000000000000000       0x96 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x9a
+ .debug_macro   0x0000000000000000       0x9a airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x1cf
+ .debug_macro   0x0000000000000000      0x1cf airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x16c
+ .debug_macro   0x0000000000000000      0x16c airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x413
+ .debug_macro   0x0000000000000000      0x413 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x5f
+ .debug_macro   0x0000000000000000       0x5f airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x1d
+ .debug_macro   0x0000000000000000       0x1d airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0xdf
+ .debug_macro   0x0000000000000000       0xdf airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x13f
+ .debug_macro   0x0000000000000000      0x13f airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0xdb4
+ .debug_macro   0x0000000000000000      0xdb4 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x215
+ .debug_macro   0x0000000000000000      0x215 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x167
+ .debug_macro   0x0000000000000000      0x167 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x2b
+ .debug_macro   0x0000000000000000       0x2b airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x29
+ .debug_macro   0x0000000000000000       0x29 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x30
+ .debug_macro   0x0000000000000000       0x30 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x46
+ .debug_macro   0x0000000000000000       0x46 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x88
+ .debug_macro   0x0000000000000000       0x88 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x18
+ .debug_macro   0x0000000000000000       0x18 airspeed.cpp.o

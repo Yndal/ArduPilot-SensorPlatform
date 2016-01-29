@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_connect"
+        app:showAsAction="never"
+        android:title="@string/menu_disconnect"/>
+
+    <group
+        android:id="@+id/menu_group_connected"
+        android:enabled="false"
+        android:visible="false">
+
+        <item
+            android:id="@+id/menu_upload_mission"
+            app:showAsAction="never"
+            android:title="@string/upload_mission"/>
+        <item
+            android:id="@+id/menu_download_mission"
+            app:showAsAction="never"
+            android:title="@string/download_mission"/>
+
+        <item
+            android:id="@+id/menu_advanced"
+            android:enabled="false"
+            android:visible="false"
+            android:title="Advanced"
+            app:showAsAction="never">
+            <menu>
+                <item
+                    android:id="@+id/menu_triggerCamera"
+                    app:showAsAction="never"
+                    android:title="Picture"/>
+                <item
+                    android:id="@+id/menu_epm_release"
+                    app:showAsAction="never"
+                    android:title="Release"/>
+                <item
+                    android:id="@+id/menu_epm_grab"
+                    app:showAsAction="never"
+                    android:title="Grab"/>
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

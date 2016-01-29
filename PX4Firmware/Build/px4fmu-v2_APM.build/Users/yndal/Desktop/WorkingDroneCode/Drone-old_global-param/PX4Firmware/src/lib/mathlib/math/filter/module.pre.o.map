@@ -1,0 +1,376 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD LowPassFilter2p.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT(.init))
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x0000000000000000        0x0
+ *(.text .stub)
+ .text          0x0000000000000000        0x0 LowPassFilter2p.cpp.o
+ *(.gnu.warning)
+
+.text._ZN4math15LowPassFilter2p20set_cutoff_frequencyEff
+                0x0000000000000000       0x84
+ .text._ZN4math15LowPassFilter2p20set_cutoff_frequencyEff
+                0x0000000000000000       0x84 LowPassFilter2p.cpp.o
+                0x0000000000000000                math::LowPassFilter2p::set_cutoff_frequency(float, float)
+
+.text._ZN4math15LowPassFilter2p5applyEf
+                0x0000000000000000       0x82
+ .text._ZN4math15LowPassFilter2p5applyEf
+                0x0000000000000000       0x82 LowPassFilter2p.cpp.o
+                0x0000000000000000                math::LowPassFilter2p::apply(float)
+
+.text._ZN4math15LowPassFilter2p5resetEf
+                0x0000000000000000       0x24
+ .text._ZN4math15LowPassFilter2p5resetEf
+                0x0000000000000000       0x24 LowPassFilter2p.cpp.o
+                0x0000000000000000                math::LowPassFilter2p::reset(float)
+
+.fini
+ *(SORT(.fini))
+
+.rodata
+ *(.rodata)
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x0000000000000000        0x0
+ *(.data)
+ .data          0x0000000000000000        0x0 LowPassFilter2p.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x0000000000000000        0x0 LowPassFilter2p.cpp.o
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x71
+ *(.comment)
+ .comment       0x0000000000000000       0x71 LowPassFilter2p.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 LowPassFilter2p.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 LowPassFilter2p.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 LowPassFilter2p.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 LowPassFilter2p.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 LowPassFilter2p.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 LowPassFilter2p.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 LowPassFilter2p.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 LowPassFilter2p.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x30
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x30 LowPassFilter2p.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x322
+ *(.debug_info)
+ .debug_info    0x0000000000000000      0x322 LowPassFilter2p.cpp.o
+
+.debug_abbrev   0x0000000000000000      0x1b1
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x1b1 LowPassFilter2p.cpp.o
+
+.debug_line     0x0000000000000000      0x413
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x413 LowPassFilter2p.cpp.o
+
+.debug_frame    0x0000000000000000       0x58
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x58 LowPassFilter2p.cpp.o
+
+.debug_str      0x0000000000000000     0x59fa
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x59fa LowPassFilter2p.cpp.o
+
+.debug_loc      0x0000000000000000      0x1a3
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x1a3 LowPassFilter2p.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0x58
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x58 LowPassFilter2p.cpp.o
+
+.debug_macro    0x0000000000000000       0x7e
+ *(.debug_macro)
+ .debug_macro   0x0000000000000000       0x7e LowPassFilter2p.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x0000000000000000       0x35
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x35 LowPassFilter2p.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4fmu-v2_APM.build//Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/src/lib/mathlib/math/filter/module.pre.o elf32-littlearm)
+
+.debug_macro    0x0000000000000000      0x8bc
+ .debug_macro   0x0000000000000000      0x8bc LowPassFilter2p.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 LowPassFilter2p.cpp.o
+
+.debug_macro    0x0000000000000000      0x89f
+ .debug_macro   0x0000000000000000      0x89f LowPassFilter2p.cpp.o
+
+.debug_macro    0x0000000000000000       0x58
+ .debug_macro   0x0000000000000000       0x58 LowPassFilter2p.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 LowPassFilter2p.cpp.o
+
+.debug_macro    0x0000000000000000       0x2e
+ .debug_macro   0x0000000000000000       0x2e LowPassFilter2p.cpp.o
+
+.debug_macro    0x0000000000000000       0xa3
+ .debug_macro   0x0000000000000000       0xa3 LowPassFilter2p.cpp.o
+
+.debug_macro    0x0000000000000000      0x281
+ .debug_macro   0x0000000000000000      0x281 LowPassFilter2p.cpp.o

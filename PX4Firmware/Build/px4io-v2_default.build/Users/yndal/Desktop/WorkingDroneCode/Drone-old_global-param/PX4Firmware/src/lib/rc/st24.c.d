@@ -1,0 +1,35 @@
+../../lib/rc/st24.c.o: \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/src/lib/rc/st24.c \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/src/include/visibility.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/stdbool.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/nuttx/config.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/nuttx/compiler.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/stdint.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/arch/types.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/limits.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/arch/limits.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/stdio.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/sys/types.h \
+ /usr/local/Cellar/gcc-arm-none-eabi/20140805/lib/gcc/arm-none-eabi/4.8.4/include/stdarg.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/sched.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/nuttx/sched.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/queue.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/signal.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/time.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/semaphore.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/pthread.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/sys/prctl.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/unistd.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/mqueue.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/queue.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/nuttx/irq.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/assert.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/arch/irq.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/arch/chip/irq.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/arch/stm32/chip.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/arch/stm32/stm32f10xxx_irq.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/arch/armv7-m/irq.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/arch/armv7-m/irq_cmnvector.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/nuttx/fs/fs.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4io-v2_default.build/nuttx-export/include/nuttx/net/net.h \
+ /Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/src/lib/rc/st24.h

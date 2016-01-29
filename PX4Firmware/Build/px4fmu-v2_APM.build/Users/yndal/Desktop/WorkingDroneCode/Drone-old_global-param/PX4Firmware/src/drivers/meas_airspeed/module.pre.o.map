@@ -1,0 +1,1338 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD meas_airspeed.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT(.init))
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x0000000000000000        0x0
+ *(.text .stub)
+ .text          0x0000000000000000        0x0 meas_airspeed.cpp.o
+ *(.gnu.warning)
+
+.text._ZN10RingBufferD2Ev
+                0x0000000000000000       0x18
+ .text._ZN10RingBufferD2Ev
+                0x0000000000000000       0x18 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::~RingBuffer()
+                0x0000000000000000                RingBuffer::~RingBuffer()
+
+.text._ZN10RingBufferD0Ev
+                0x0000000000000000       0x12
+ .text._ZN10RingBufferD0Ev
+                0x0000000000000000       0x12 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::~RingBuffer()
+
+.text._ZN12MEASAirspeed7measureEv
+                0x0000000000000000       0x28
+ .text._ZN12MEASAirspeed7measureEv
+                0x0000000000000000       0x28 meas_airspeed.cpp.o
+                0x0000000000000000                MEASAirspeed::measure()
+
+.text._ZN12MEASAirspeed5cycleEv
+                0x0000000000000000       0x78
+ .text._ZN12MEASAirspeed5cycleEv
+                0x0000000000000000       0x78 meas_airspeed.cpp.o
+                0x0000000000000000                MEASAirspeed::cycle()
+
+.text._ZN12MEASAirspeedD2Ev
+                0x0000000000000000       0x14
+ .text._ZN12MEASAirspeedD2Ev
+                0x0000000000000000       0x14 meas_airspeed.cpp.o
+                0x0000000000000000                MEASAirspeed::~MEASAirspeed()
+                0x0000000000000000                MEASAirspeed::~MEASAirspeed()
+
+.text._ZN12MEASAirspeedD0Ev
+                0x0000000000000000       0x12
+ .text._ZN12MEASAirspeedD0Ev
+                0x0000000000000000       0x12 meas_airspeed.cpp.o
+                0x0000000000000000                MEASAirspeed::~MEASAirspeed()
+
+.text._ZN10RingBufferC2Ejj
+                0x0000000000000000       0x24
+ .text._ZN10RingBufferC2Ejj
+                0x0000000000000000       0x24 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::RingBuffer(unsigned int, unsigned int)
+                0x0000000000000000                RingBuffer::RingBuffer(unsigned int, unsigned int)
+
+.text._ZN10RingBuffer5_nextEj
+                0x0000000000000000        0xa
+ .text._ZN10RingBuffer5_nextEj
+                0x0000000000000000        0xa meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::_next(unsigned int)
+
+.text._ZN10RingBuffer5emptyEv
+                0x0000000000000000        0xc
+ .text._ZN10RingBuffer5emptyEv
+                0x0000000000000000        0xc meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::empty()
+
+.text._ZN10RingBuffer4fullEv
+                0x0000000000000000       0x14
+ .text._ZN10RingBuffer4fullEv
+                0x0000000000000000       0x14 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::full()
+
+.text._ZN10RingBuffer4sizeEv
+                0x0000000000000000        0xc
+ .text._ZN10RingBuffer4sizeEv
+                0x0000000000000000        0xc meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::size()
+
+.text._ZN10RingBuffer3putEPKvj
+                0x0000000000000000       0x34
+ .text._ZN10RingBuffer3putEPKvj
+                0x0000000000000000       0x34 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(void const*, unsigned int)
+
+.text._ZN10RingBuffer3putEa
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEa
+                0x0000000000000000       0x16 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(signed char)
+
+.text._ZN10RingBuffer3putEh
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEh
+                0x0000000000000000       0x16 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(unsigned char)
+
+.text._ZN10RingBuffer3putEs
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEs
+                0x0000000000000000       0x16 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(short)
+
+.text._ZN10RingBuffer3putEt
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEt
+                0x0000000000000000       0x16 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(unsigned short)
+
+.text._ZN10RingBuffer3putEi
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEi
+                0x0000000000000000       0x16 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(int)
+
+.text._ZN10RingBuffer3putEj
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEj
+                0x0000000000000000       0x16 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(unsigned int)
+
+.text._ZN10RingBuffer3putEx
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEx
+                0x0000000000000000       0x16 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(long long)
+
+.text._ZN10RingBuffer3putEy
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEy
+                0x0000000000000000       0x16 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(unsigned long long)
+
+.text._ZN10RingBuffer3putEf
+                0x0000000000000000       0x14
+ .text._ZN10RingBuffer3putEf
+                0x0000000000000000       0x14 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(float)
+
+.text._ZN10RingBuffer3putEd
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer3putEd
+                0x0000000000000000       0x16 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::put(double)
+
+.text._ZN10RingBuffer3getEPvj
+                0x0000000000000000       0x62
+ .text._ZN10RingBuffer3getEPvj
+                0x0000000000000000       0x62 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(void*, unsigned int)
+
+.text._ZN10RingBuffer5flushEv
+                0x0000000000000000       0x1a
+ .text._ZN10RingBuffer5flushEv
+                0x0000000000000000       0x1a meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::flush()
+
+.text._ZN10RingBuffer5forceEPKvj
+                0x0000000000000000       0x28
+ .text._ZN10RingBuffer5forceEPKvj
+                0x0000000000000000       0x28 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(void const*, unsigned int)
+
+.text._ZN10RingBuffer5forceEa
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEa
+                0x0000000000000000       0x16 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(signed char)
+
+.text._ZN10RingBuffer5forceEh
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEh
+                0x0000000000000000       0x16 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(unsigned char)
+
+.text._ZN10RingBuffer5forceEs
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEs
+                0x0000000000000000       0x16 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(short)
+
+.text._ZN10RingBuffer5forceEt
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEt
+                0x0000000000000000       0x16 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(unsigned short)
+
+.text._ZN10RingBuffer5forceEi
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEi
+                0x0000000000000000       0x16 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(int)
+
+.text._ZN10RingBuffer5forceEj
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEj
+                0x0000000000000000       0x16 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(unsigned int)
+
+.text._ZN10RingBuffer5forceEx
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEx
+                0x0000000000000000       0x16 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(long long)
+
+.text._ZN10RingBuffer5forceEy
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEy
+                0x0000000000000000       0x16 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(unsigned long long)
+
+.text._ZN10RingBuffer5forceEf
+                0x0000000000000000       0x14
+ .text._ZN10RingBuffer5forceEf
+                0x0000000000000000       0x14 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(float)
+
+.text._ZN10RingBuffer5forceEd
+                0x0000000000000000       0x16
+ .text._ZN10RingBuffer5forceEd
+                0x0000000000000000       0x16 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::force(double)
+
+.text._ZN10RingBuffer3getERa
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERa
+                0x0000000000000000        0x6 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(signed char&)
+
+.text._ZN10RingBuffer3getERh
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERh
+                0x0000000000000000        0x6 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(unsigned char&)
+
+.text._ZN10RingBuffer3getERs
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERs
+                0x0000000000000000        0x6 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(short&)
+
+.text._ZN10RingBuffer3getERt
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERt
+                0x0000000000000000        0x6 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(unsigned short&)
+
+.text._ZN10RingBuffer3getERi
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERi
+                0x0000000000000000        0x6 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(int&)
+
+.text._ZN10RingBuffer3getERj
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERj
+                0x0000000000000000        0x6 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(unsigned int&)
+
+.text._ZN10RingBuffer3getERx
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERx
+                0x0000000000000000        0x6 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(long long&)
+
+.text._ZN10RingBuffer3getERy
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERy
+                0x0000000000000000        0x6 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(unsigned long long&)
+
+.text._ZN10RingBuffer3getERf
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERf
+                0x0000000000000000        0x6 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(float&)
+
+.text._ZN10RingBuffer3getERd
+                0x0000000000000000        0x6
+ .text._ZN10RingBuffer3getERd
+                0x0000000000000000        0x6 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::get(double&)
+
+.text._ZN10RingBuffer5spaceEv
+                0x0000000000000000       0x1a
+ .text._ZN10RingBuffer5spaceEv
+                0x0000000000000000       0x1a meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::space()
+
+.text._ZN10RingBuffer5countEv
+                0x0000000000000000        0xc
+ .text._ZN10RingBuffer5countEv
+                0x0000000000000000        0xc meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::count()
+
+.text._ZN10RingBuffer6resizeEj
+                0x0000000000000000       0x28
+ .text._ZN10RingBuffer6resizeEj
+                0x0000000000000000       0x28 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::resize(unsigned int)
+
+.text._ZN10RingBuffer10print_infoEPKc
+                0x0000000000000000       0x24
+ .text._ZN10RingBuffer10print_infoEPKc
+                0x0000000000000000       0x24 meas_airspeed.cpp.o
+                0x0000000000000000                RingBuffer::print_info(char const*)
+
+.text._ZN12MEASAirspeedC2EiiPKc
+                0x0000000000000000       0x6c
+ .text._ZN12MEASAirspeedC2EiiPKc
+                0x0000000000000000       0x6c meas_airspeed.cpp.o
+                0x0000000000000000                MEASAirspeed::MEASAirspeed(int, int, char const*)
+                0x0000000000000000                MEASAirspeed::MEASAirspeed(int, int, char const*)
+
+.text._ZN12MEASAirspeed18voltage_correctionERfS0_
+                0x0000000000000000       0xec
+ .text._ZN12MEASAirspeed18voltage_correctionERfS0_
+                0x0000000000000000       0xec meas_airspeed.cpp.o
+                0x0000000000000000                MEASAirspeed::voltage_correction(float&, float&)
+
+.text._ZN12MEASAirspeed7collectEv
+                0x0000000000000000      0x16c
+ .text._ZN12MEASAirspeed7collectEv
+                0x0000000000000000      0x16c meas_airspeed.cpp.o
+                0x0000000000000000                MEASAirspeed::collect()
+
+.text._ZN13meas_airspeed5startEi
+                0x0000000000000000       0xac
+ .text._ZN13meas_airspeed5startEi
+                0x0000000000000000       0xac meas_airspeed.cpp.o
+                0x0000000000000000                meas_airspeed::start(int)
+
+.text._ZN13meas_airspeed4stopEv
+                0x0000000000000000       0x28
+ .text._ZN13meas_airspeed4stopEv
+                0x0000000000000000       0x28 meas_airspeed.cpp.o
+                0x0000000000000000                meas_airspeed::stop()
+
+.text._ZN13meas_airspeed4testEv
+                0x0000000000000000      0x118
+ .text._ZN13meas_airspeed4testEv
+                0x0000000000000000      0x118 meas_airspeed.cpp.o
+                0x0000000000000000                meas_airspeed::test()
+
+.text._ZN13meas_airspeed5resetEv
+                0x0000000000000000       0x5c
+ .text._ZN13meas_airspeed5resetEv
+                0x0000000000000000       0x5c meas_airspeed.cpp.o
+                0x0000000000000000                meas_airspeed::reset()
+
+.text._ZN13meas_airspeed4infoEv
+                0x0000000000000000       0x30
+ .text._ZN13meas_airspeed4infoEv
+                0x0000000000000000       0x30 meas_airspeed.cpp.o
+                0x0000000000000000                meas_airspeed::info()
+
+.text.meas_airspeed_main
+                0x0000000000000000       0xf0
+ .text.meas_airspeed_main
+                0x0000000000000000       0xf0 meas_airspeed.cpp.o
+                0x0000000000000000                meas_airspeed_main
+
+.fini
+ *(SORT(.fini))
+
+.rodata
+ *(.rodata)
+
+.rodata._ZTV12MEASAirspeed
+                0x0000000000000000       0x70
+ .rodata._ZTV12MEASAirspeed
+                0x0000000000000000       0x70 meas_airspeed.cpp.o
+                0x0000000000000000                vtable for MEASAirspeed
+
+.rodata.str1.1  0x0000000000000000      0x262
+ .rodata.str1.1
+                0x0000000000000000      0x262 meas_airspeed.cpp.o
+
+.rodata._ZTV10RingBuffer
+                0x0000000000000000       0x10
+ .rodata._ZTV10RingBuffer
+                0x0000000000000000       0x10 meas_airspeed.cpp.o
+                0x0000000000000000                vtable for RingBuffer
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x0000000000000000        0x0
+ *(.data)
+ .data          0x0000000000000000        0x0 meas_airspeed.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x0000000000000000        0x0 meas_airspeed.cpp.o
+ *(COMMON)
+
+.bss._ZN13meas_airspeed5g_devE
+                0x0000000000000000        0x4
+ .bss._ZN13meas_airspeed5g_devE
+                0x0000000000000000        0x4 meas_airspeed.cpp.o
+                0x0000000000000000                meas_airspeed::g_dev
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x71
+ *(.comment)
+ .comment       0x0000000000000000       0x71 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 meas_airspeed.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x1e8
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x1e8 meas_airspeed.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x6de0
+ *(.debug_info)
+ .debug_info    0x0000000000000000     0x6de0 meas_airspeed.cpp.o
+
+.debug_abbrev   0x0000000000000000      0x7ce
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x7ce meas_airspeed.cpp.o
+
+.debug_line     0x0000000000000000     0x20c4
+ *(.debug_line)
+ .debug_line    0x0000000000000000     0x20c4 meas_airspeed.cpp.o
+
+.debug_frame    0x0000000000000000      0x5ac
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x5ac meas_airspeed.cpp.o
+
+.debug_str      0x0000000000000000    0x4be9d
+ *(.debug_str)
+ .debug_str     0x0000000000000000    0x4be9d meas_airspeed.cpp.o
+
+.debug_loc      0x0000000000000000     0x149a
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x149a meas_airspeed.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x2e0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x2e0 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x712
+ *(.debug_macro)
+ .debug_macro   0x0000000000000000      0x712 meas_airspeed.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x0000000000000000       0x35
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x35 meas_airspeed.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4fmu-v2_APM.build//Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/src/drivers/meas_airspeed/module.pre.o elf32-littlearm)
+
+.debug_macro    0x0000000000000000      0x8bc
+ .debug_macro   0x0000000000000000      0x8bc meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x89f
+ .debug_macro   0x0000000000000000      0x89f meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0xc9
+ .debug_macro   0x0000000000000000       0xc9 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x6bb
+ .debug_macro   0x0000000000000000      0x6bb meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x88
+ .debug_macro   0x0000000000000000       0x88 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x14e
+ .debug_macro   0x0000000000000000      0x14e meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x125
+ .debug_macro   0x0000000000000000      0x125 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x5d
+ .debug_macro   0x0000000000000000       0x5d meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x23
+ .debug_macro   0x0000000000000000       0x23 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x53
+ .debug_macro   0x0000000000000000       0x53 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x39
+ .debug_macro   0x0000000000000000       0x39 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x9c
+ .debug_macro   0x0000000000000000       0x9c meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x5e
+ .debug_macro   0x0000000000000000       0x5e meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x14d
+ .debug_macro   0x0000000000000000      0x14d meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x58
+ .debug_macro   0x0000000000000000       0x58 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x4c
+ .debug_macro   0x0000000000000000       0x4c meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x49
+ .debug_macro   0x0000000000000000       0x49 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x106
+ .debug_macro   0x0000000000000000      0x106 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0xd1
+ .debug_macro   0x0000000000000000       0xd1 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x98
+ .debug_macro   0x0000000000000000       0x98 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x59
+ .debug_macro   0x0000000000000000       0x59 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x11b
+ .debug_macro   0x0000000000000000      0x11b meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x46
+ .debug_macro   0x0000000000000000       0x46 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x27f
+ .debug_macro   0x0000000000000000      0x27f meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x195
+ .debug_macro   0x0000000000000000      0x195 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x8a
+ .debug_macro   0x0000000000000000       0x8a meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0xb4
+ .debug_macro   0x0000000000000000       0xb4 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x41
+ .debug_macro   0x0000000000000000       0x41 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x4d
+ .debug_macro   0x0000000000000000       0x4d meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x58
+ .debug_macro   0x0000000000000000       0x58 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x2e
+ .debug_macro   0x0000000000000000       0x2e meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0xa3
+ .debug_macro   0x0000000000000000       0xa3 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x281
+ .debug_macro   0x0000000000000000      0x281 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x19
+ .debug_macro   0x0000000000000000       0x19 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x4d
+ .debug_macro   0x0000000000000000       0x4d meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0xc1
+ .debug_macro   0x0000000000000000       0xc1 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x78
+ .debug_macro   0x0000000000000000       0x78 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x6cb
+ .debug_macro   0x0000000000000000      0x6cb meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x20a
+ .debug_macro   0x0000000000000000      0x20a meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0xf6f
+ .debug_macro   0x0000000000000000      0xf6f meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x2ab
+ .debug_macro   0x0000000000000000      0x2ab meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x8b5
+ .debug_macro   0x0000000000000000      0x8b5 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x78
+ .debug_macro   0x0000000000000000       0x78 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x14e
+ .debug_macro   0x0000000000000000      0x14e meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x7ca
+ .debug_macro   0x0000000000000000      0x7ca meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0xff
+ .debug_macro   0x0000000000000000       0xff meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0xae7
+ .debug_macro   0x0000000000000000      0xae7 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x51
+ .debug_macro   0x0000000000000000       0x51 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x11a
+ .debug_macro   0x0000000000000000      0x11a meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x1d
+ .debug_macro   0x0000000000000000       0x1d meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x206
+ .debug_macro   0x0000000000000000      0x206 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x56a
+ .debug_macro   0x0000000000000000      0x56a meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x2bf
+ .debug_macro   0x0000000000000000      0x2bf meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0xd3
+ .debug_macro   0x0000000000000000       0xd3 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x34
+ .debug_macro   0x0000000000000000       0x34 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0xab0
+ .debug_macro   0x0000000000000000      0xab0 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x17
+ .debug_macro   0x0000000000000000       0x17 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x6fa
+ .debug_macro   0x0000000000000000      0x6fa meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x596
+ .debug_macro   0x0000000000000000      0x596 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x29b
+ .debug_macro   0x0000000000000000      0x29b meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000     0x15a4
+ .debug_macro   0x0000000000000000     0x15a4 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x53
+ .debug_macro   0x0000000000000000       0x53 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x347
+ .debug_macro   0x0000000000000000      0x347 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x96
+ .debug_macro   0x0000000000000000       0x96 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x9a
+ .debug_macro   0x0000000000000000       0x9a meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x1cf
+ .debug_macro   0x0000000000000000      0x1cf meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x16c
+ .debug_macro   0x0000000000000000      0x16c meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x413
+ .debug_macro   0x0000000000000000      0x413 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x5f
+ .debug_macro   0x0000000000000000       0x5f meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x1d
+ .debug_macro   0x0000000000000000       0x1d meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0xdf
+ .debug_macro   0x0000000000000000       0xdf meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x13f
+ .debug_macro   0x0000000000000000      0x13f meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0xdb4
+ .debug_macro   0x0000000000000000      0xdb4 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x21b
+ .debug_macro   0x0000000000000000      0x21b meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x24d
+ .debug_macro   0x0000000000000000      0x24d meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000      0x167
+ .debug_macro   0x0000000000000000      0x167 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x2b
+ .debug_macro   0x0000000000000000       0x2b meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x29
+ .debug_macro   0x0000000000000000       0x29 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x30
+ .debug_macro   0x0000000000000000       0x30 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x46
+ .debug_macro   0x0000000000000000       0x46 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x88
+ .debug_macro   0x0000000000000000       0x88 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 meas_airspeed.cpp.o
+
+.debug_macro    0x0000000000000000       0x18
+ .debug_macro   0x0000000000000000       0x18 meas_airspeed.cpp.o

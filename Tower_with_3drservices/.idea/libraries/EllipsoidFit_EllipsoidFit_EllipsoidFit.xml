@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="EllipsoidFit-EllipsoidFit.EllipsoidFit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dependencyLibs/EllipsoidFit/EllipsoidFit/build/libs/EllipsoidFit.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

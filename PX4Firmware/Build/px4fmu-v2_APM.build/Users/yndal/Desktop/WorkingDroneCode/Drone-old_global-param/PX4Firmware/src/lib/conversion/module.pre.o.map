@@ -1,0 +1,609 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD rotation.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT(.init))
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x0000000000000000        0x0
+ *(.text .stub)
+ .text          0x0000000000000000        0x0 rotation.cpp.o
+ *(.gnu.warning)
+
+.text._Z14get_rot_matrix8RotationPN4math6MatrixILj3ELj3EEE
+                0x0000000000000000       0xf0
+ .text._Z14get_rot_matrix8RotationPN4math6MatrixILj3ELj3EEE
+                0x0000000000000000       0xf0 rotation.cpp.o
+                0x0000000000000000                get_rot_matrix(Rotation, math::Matrix<3u, 3u>*)
+
+.text._Z9rotate_3f8RotationRfS0_S0_
+                0x0000000000000000      0x2fc
+ .text._Z9rotate_3f8RotationRfS0_S0_
+                0x0000000000000000      0x2fc rotation.cpp.o
+                0x0000000000000000                rotate_3f(Rotation, float&, float&, float&)
+
+.fini
+ *(SORT(.fini))
+
+.rodata
+ *(.rodata)
+
+.rodata._ZL10rot_lookup
+                0x0000000000000000       0xa2
+ .rodata._ZL10rot_lookup
+                0x0000000000000000       0xa2 rotation.cpp.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x0000000000000000        0x0
+ *(.data)
+ .data          0x0000000000000000        0x0 rotation.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x0000000000000000        0x0 rotation.cpp.o
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x71
+ *(.comment)
+ .comment       0x0000000000000000       0x71 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rotation.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x28
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 rotation.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x597c
+ *(.debug_info)
+ .debug_info    0x0000000000000000     0x597c rotation.cpp.o
+
+.debug_abbrev   0x0000000000000000      0x4e7
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x4e7 rotation.cpp.o
+
+.debug_line     0x0000000000000000     0x1232
+ *(.debug_line)
+ .debug_line    0x0000000000000000     0x1232 rotation.cpp.o
+
+.debug_frame    0x0000000000000000       0x4c
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x4c rotation.cpp.o
+
+.debug_str      0x0000000000000000     0xfd2e
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0xfd2e rotation.cpp.o
+
+.debug_loc      0x0000000000000000      0x5ab
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x5ab rotation.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0x80
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x80 rotation.cpp.o
+
+.debug_macro    0x0000000000000000      0x373
+ *(.debug_macro)
+ .debug_macro   0x0000000000000000      0x373 rotation.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x0000000000000000       0x35
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x35 rotation.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4fmu-v2_APM.build//Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/src/lib/conversion/module.pre.o elf32-littlearm)
+
+.debug_macro    0x0000000000000000      0x8bc
+ .debug_macro   0x0000000000000000      0x8bc rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 rotation.cpp.o
+
+.debug_macro    0x0000000000000000      0x89f
+ .debug_macro   0x0000000000000000      0x89f rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x58
+ .debug_macro   0x0000000000000000       0x58 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x2e
+ .debug_macro   0x0000000000000000       0x2e rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0xa3
+ .debug_macro   0x0000000000000000       0xa3 rotation.cpp.o
+
+.debug_macro    0x0000000000000000      0x281
+ .debug_macro   0x0000000000000000      0x281 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0xc9
+ .debug_macro   0x0000000000000000       0xc9 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x88
+ .debug_macro   0x0000000000000000       0x88 rotation.cpp.o
+
+.debug_macro    0x0000000000000000      0x14e
+ .debug_macro   0x0000000000000000      0x14e rotation.cpp.o
+
+.debug_macro    0x0000000000000000      0x125
+ .debug_macro   0x0000000000000000      0x125 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x5d
+ .debug_macro   0x0000000000000000       0x5d rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0xcb
+ .debug_macro   0x0000000000000000       0xcb rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x58
+ .debug_macro   0x0000000000000000       0x58 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x4c
+ .debug_macro   0x0000000000000000       0x4c rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x49
+ .debug_macro   0x0000000000000000       0x49 rotation.cpp.o
+
+.debug_macro    0x0000000000000000      0x106
+ .debug_macro   0x0000000000000000      0x106 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x23
+ .debug_macro   0x0000000000000000       0x23 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x98
+ .debug_macro   0x0000000000000000       0x98 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x59
+ .debug_macro   0x0000000000000000       0x59 rotation.cpp.o
+
+.debug_macro    0x0000000000000000      0x11b
+ .debug_macro   0x0000000000000000      0x11b rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x46
+ .debug_macro   0x0000000000000000       0x46 rotation.cpp.o
+
+.debug_macro    0x0000000000000000      0x27f
+ .debug_macro   0x0000000000000000      0x27f rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 rotation.cpp.o
+
+.debug_macro    0x0000000000000000      0x195
+ .debug_macro   0x0000000000000000      0x195 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x8a
+ .debug_macro   0x0000000000000000       0x8a rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x39
+ .debug_macro   0x0000000000000000       0x39 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0xb4
+ .debug_macro   0x0000000000000000       0xb4 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x41
+ .debug_macro   0x0000000000000000       0x41 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x4d
+ .debug_macro   0x0000000000000000       0x4d rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x20
+ .debug_macro   0x0000000000000000       0x20 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x3b
+ .debug_macro   0x0000000000000000       0x3b rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x2d
+ .debug_macro   0x0000000000000000       0x2d rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x42
+ .debug_macro   0x0000000000000000       0x42 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0xa5
+ .debug_macro   0x0000000000000000       0xa5 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x29
+ .debug_macro   0x0000000000000000       0x29 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x2b
+ .debug_macro   0x0000000000000000       0x2b rotation.cpp.o
+
+.debug_macro    0x0000000000000000      0x167
+ .debug_macro   0x0000000000000000      0x167 rotation.cpp.o
+
+.debug_macro    0x0000000000000000       0x30
+ .debug_macro   0x0000000000000000       0x30 rotation.cpp.o

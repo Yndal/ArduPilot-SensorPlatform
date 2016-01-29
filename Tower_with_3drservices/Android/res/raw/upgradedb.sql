@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS int_table;
+DROP TABLE IF EXISTS float_table;

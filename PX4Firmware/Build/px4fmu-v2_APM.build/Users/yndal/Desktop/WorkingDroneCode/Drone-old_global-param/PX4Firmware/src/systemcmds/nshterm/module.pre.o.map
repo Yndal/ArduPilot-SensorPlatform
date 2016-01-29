@@ -1,0 +1,554 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD nshterm.c.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT(.init))
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x0000000000000000        0x0
+ *(.text .stub)
+ .text          0x0000000000000000        0x0 nshterm.c.o
+ *(.gnu.warning)
+
+.text.nshterm_main
+                0x0000000000000000      0x11c
+ .text.nshterm_main
+                0x0000000000000000      0x11c nshterm.c.o
+                0x0000000000000000                nshterm_main
+
+.fini
+ *(SORT(.fini))
+
+.rodata
+ *(.rodata)
+
+.rodata.str1.1  0x0000000000000000       0x43
+ .rodata.str1.1
+                0x0000000000000000       0x43 nshterm.c.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x0000000000000000        0x0
+ *(.data)
+ .data          0x0000000000000000        0x0 nshterm.c.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x0000000000000000        0x0 nshterm.c.o
+ *(COMMON)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x71
+ *(.comment)
+ .comment       0x0000000000000000       0x71 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 nshterm.c.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x20
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 nshterm.c.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x603
+ *(.debug_info)
+ .debug_info    0x0000000000000000      0x603 nshterm.c.o
+
+.debug_abbrev   0x0000000000000000      0x193
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x193 nshterm.c.o
+
+.debug_line     0x0000000000000000      0x9ef
+ *(.debug_line)
+ .debug_line    0x0000000000000000      0x9ef nshterm.c.o
+
+.debug_frame    0x0000000000000000       0x30
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x30 nshterm.c.o
+
+.debug_str      0x0000000000000000     0xaf29
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0xaf29 nshterm.c.o
+
+.debug_loc      0x0000000000000000      0x139
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x139 nshterm.c.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0x10
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x10 nshterm.c.o
+
+.debug_macro    0x0000000000000000      0x203
+ *(.debug_macro)
+ .debug_macro   0x0000000000000000      0x203 nshterm.c.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x0000000000000000       0x35
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x35 nshterm.c.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4fmu-v2_APM.build//Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/src/systemcmds/nshterm/module.pre.o elf32-littlearm)
+
+.debug_macro    0x0000000000000000      0x89e
+ .debug_macro   0x0000000000000000      0x89e nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 nshterm.c.o
+
+.debug_macro    0x0000000000000000      0x89f
+ .debug_macro   0x0000000000000000      0x89f nshterm.c.o
+
+.debug_macro    0x0000000000000000       0xc9
+ .debug_macro   0x0000000000000000       0xc9 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x88
+ .debug_macro   0x0000000000000000       0x88 nshterm.c.o
+
+.debug_macro    0x0000000000000000      0x14e
+ .debug_macro   0x0000000000000000      0x14e nshterm.c.o
+
+.debug_macro    0x0000000000000000      0x125
+ .debug_macro   0x0000000000000000      0x125 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x69
+ .debug_macro   0x0000000000000000       0x69 nshterm.c.o
+
+.debug_macro    0x0000000000000000      0x32d
+ .debug_macro   0x0000000000000000      0x32d nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x58
+ .debug_macro   0x0000000000000000       0x58 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x4c
+ .debug_macro   0x0000000000000000       0x4c nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x49
+ .debug_macro   0x0000000000000000       0x49 nshterm.c.o
+
+.debug_macro    0x0000000000000000      0x106
+ .debug_macro   0x0000000000000000      0x106 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x23
+ .debug_macro   0x0000000000000000       0x23 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0xd1
+ .debug_macro   0x0000000000000000       0xd1 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x98
+ .debug_macro   0x0000000000000000       0x98 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x59
+ .debug_macro   0x0000000000000000       0x59 nshterm.c.o
+
+.debug_macro    0x0000000000000000      0x11b
+ .debug_macro   0x0000000000000000      0x11b nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x46
+ .debug_macro   0x0000000000000000       0x46 nshterm.c.o
+
+.debug_macro    0x0000000000000000      0x27f
+ .debug_macro   0x0000000000000000      0x27f nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 nshterm.c.o
+
+.debug_macro    0x0000000000000000      0x195
+ .debug_macro   0x0000000000000000      0x195 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x8a
+ .debug_macro   0x0000000000000000       0x8a nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x39
+ .debug_macro   0x0000000000000000       0x39 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0xb4
+ .debug_macro   0x0000000000000000       0xb4 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x41
+ .debug_macro   0x0000000000000000       0x41 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x4d
+ .debug_macro   0x0000000000000000       0x4d nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x5e
+ .debug_macro   0x0000000000000000       0x5e nshterm.c.o
+
+.debug_macro    0x0000000000000000      0x6c1
+ .debug_macro   0x0000000000000000      0x6c1 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x23
+ .debug_macro   0x0000000000000000       0x23 nshterm.c.o
+
+.debug_macro    0x0000000000000000      0x14d
+ .debug_macro   0x0000000000000000      0x14d nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x12
+ .debug_macro   0x0000000000000000       0x12 nshterm.c.o
+
+.debug_macro    0x0000000000000000       0x29
+ .debug_macro   0x0000000000000000       0x29 nshterm.c.o

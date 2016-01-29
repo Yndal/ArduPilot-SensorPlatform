@@ -1,0 +1,2086 @@
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x8bc px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x22 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x89f px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0xc9 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x10 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x88 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x14e px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x125 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x5d px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x5e px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x59 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x6c1 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x22 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x58 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x4c px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x49 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x23 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x28 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0xd1 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x98 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x10 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x11b px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x46 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x27f px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x10 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x195 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x8a px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x10 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x10 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x39 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0xb4 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x41 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x4d px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x14d px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x59 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x78 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x28 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x6cb px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x20a px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0xf6f px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x2ab px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x8b5 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x78 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x14e px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x7ca px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0xff px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0xae7 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x51 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x11a px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x1d px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x206 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x56a px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x9c px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x2bf px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0xd3 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x34 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0xab0 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x17 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x6fa px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x22 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x596 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x29b px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000     0x15a4 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x53 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x347 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x96 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x1c px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x9a px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x1cf px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x16c px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x413 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x5f px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x1d px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0xdf px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0x13f px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x1c px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000      0xdb4 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_uploader.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x8bc px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x22 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x89f px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0xc9 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x10 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x88 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x14e px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x125 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x5d px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x59 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x58 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x24e px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x49 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x6c1 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x22 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x4c px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x10c px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x23 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x28 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0xd1 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x98 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x10 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x11b px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x46 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x27f px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x10 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x195 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x8a px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x10 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x10 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x39 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0xb4 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x41 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x4d px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x78 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x28 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x6cb px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x20a px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0xf6f px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x2ab px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x8b5 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x78 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x14e px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x7ca px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0xff px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0xae7 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x51 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x11a px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x1d px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x206 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x56a px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x9c px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x2bf px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0xd3 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x34 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0xab0 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x17 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x6fa px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x22 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x596 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x29b px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000     0x15a4 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x53 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x347 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x96 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x1c px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x9a px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x1cf px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x16c px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x413 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x5f px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x1d px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0xdf px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x13f px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x1c px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0xdb4 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x215 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x19 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x59 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x18 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x24d px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x29 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x2b px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x167 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000       0x30 px4io_serial.cpp.o
+ .debug_macro   0x0000000000000000      0x3ea px4io_serial.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x8bc px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x22 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x89f px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0xc9 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x10 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x88 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x14e px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x125 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x5d px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x59 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x58 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x24e px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x6c1 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0xd1 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x78 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x28 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x11b px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x10 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x27f px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x10 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x195 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x8a px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x10 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x10 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x6cb px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x20a px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0xf6f px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x2ab px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x8b5 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x23 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x39 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x78 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x14e px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x7ca px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0xff px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0xae7 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x51 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x11a px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x1d px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x206 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x56a px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x9c px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x2bf px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0xd3 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x34 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0xab0 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x17 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x6fa px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x22 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x596 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x29b px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000     0x15a4 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x53 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x347 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x96 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x1c px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x9a px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x1cf px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x16c px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x413 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x5f px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x1d px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0xdf px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x13f px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x1c px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0xdb4 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x16 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x215 px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000      0x24d px4io_i2c.cpp.o
+ .debug_macro   0x0000000000000000       0x59 px4io_i2c.cpp.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD px4io.cpp.o
+LOAD px4io_uploader.cpp.o
+LOAD px4io_serial.cpp.o
+LOAD px4io_i2c.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT(.init))
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x0000000000000000        0x0
+ *(.text .stub)
+ .text          0x0000000000000000        0x0 px4io.cpp.o
+ .text          0x0000000000000000        0x0 px4io_uploader.cpp.o
+ .text          0x0000000000000000        0x0 px4io_serial.cpp.o
+ .text          0x0000000000000000        0x0 px4io_i2c.cpp.o
+ *(.gnu.warning)
+
+.text._ZN5PX4IOD2Ev
+                0x0000000000000000       0x74
+ .text._ZN5PX4IOD2Ev
+                0x0000000000000000       0x74 px4io.cpp.o
+                0x0000000000000000                PX4IO::~PX4IO()
+                0x0000000000000000                PX4IO::~PX4IO()
+
+.text._ZN5PX4IOD0Ev
+                0x0000000000000000       0x12
+ .text._ZN5PX4IOD0Ev
+                0x0000000000000000       0x12 px4io.cpp.o
+                0x0000000000000000                PX4IO::~PX4IO()
+
+.text._ZN12_GLOBAL__N_113get_interfaceEv
+                0x0000000000000000       0x54
+ .text._ZN12_GLOBAL__N_113get_interfaceEv
+                0x0000000000000000       0x54 px4io.cpp.o
+
+.text._ZN5PX4IOC2EPN6device6DeviceE
+                0x0000000000000000      0x11c
+ .text._ZN5PX4IOC2EPN6device6DeviceE
+                0x0000000000000000      0x11c px4io.cpp.o
+                0x0000000000000000                PX4IO::PX4IO(device::Device*)
+                0x0000000000000000                PX4IO::PX4IO(device::Device*)
+
+.text._ZN5PX4IO4initEb
+                0x0000000000000000        0xe
+ .text._ZN5PX4IO4initEb
+                0x0000000000000000        0xe px4io.cpp.o
+                0x0000000000000000                PX4IO::init(bool)
+
+.text._ZN5PX4IO14dsm_bind_ioctlEi
+                0x0000000000000000       0x80
+ .text._ZN5PX4IO14dsm_bind_ioctlEi
+                0x0000000000000000       0x80 px4io.cpp.o
+                0x0000000000000000                PX4IO::dsm_bind_ioctl(int)
+
+.text._ZN5PX4IO16io_handle_alarmsEt
+                0x0000000000000000        0x8
+ .text._ZN5PX4IO16io_handle_alarmsEt
+                0x0000000000000000        0x8 px4io.cpp.o
+                0x0000000000000000                PX4IO::io_handle_alarms(unsigned short)
+
+.text._ZN5PX4IO17io_handle_batteryEtt
+                0x0000000000000000       0xd0
+ .text._ZN5PX4IO17io_handle_batteryEtt
+                0x0000000000000000       0xd0 px4io.cpp.o
+                0x0000000000000000                PX4IO::io_handle_battery(unsigned short, unsigned short)
+
+.text._ZN5PX4IO16io_handle_vservoEtt
+                0x0000000000000000       0x64
+ .text._ZN5PX4IO16io_handle_vservoEtt
+                0x0000000000000000       0x64 px4io.cpp.o
+                0x0000000000000000                PX4IO::io_handle_vservo(unsigned short, unsigned short)
+
+.text._ZN5PX4IO10io_reg_setEhhPKtj
+                0x0000000000000000       0x5c
+ .text._ZN5PX4IO10io_reg_setEhhPKtj
+                0x0000000000000000       0x5c px4io.cpp.o
+                0x0000000000000000                PX4IO::io_reg_set(unsigned char, unsigned char, unsigned short const*, unsigned int)
+
+.text._ZN5PX4IO20io_set_control_stateEj
+                0x0000000000000000      0x10c
+ .text._ZN5PX4IO20io_set_control_stateEj
+                0x0000000000000000      0x10c px4io.cpp.o
+                0x0000000000000000                PX4IO::io_set_control_state(unsigned int)
+
+.text._ZN5PX4IO21io_set_control_groupsEv
+                0x0000000000000000       0x28
+ .text._ZN5PX4IO21io_set_control_groupsEv
+                0x0000000000000000       0x28 px4io.cpp.o
+                0x0000000000000000                PX4IO::io_set_control_groups()
+
+.text._ZN5PX4IO5writeEP4filePKcj
+                0x0000000000000000       0x42
+ .text._ZN5PX4IO5writeEP4filePKcj
+                0x0000000000000000       0x42 px4io.cpp.o
+                0x0000000000000000                PX4IO::write(file*, char const*, unsigned int)
+
+.text._ZN5PX4IO10io_reg_setEhht
+                0x0000000000000000       0x16
+ .text._ZN5PX4IO10io_reg_setEhht
+                0x0000000000000000       0x16 px4io.cpp.o
+                0x0000000000000000                PX4IO::io_reg_set(unsigned char, unsigned char, unsigned short)
+
+.text._ZN5PX4IO10io_reg_getEhhPtj
+                0x0000000000000000       0x5c
+ .text._ZN5PX4IO10io_reg_getEhhPtj
+                0x0000000000000000       0x5c px4io.cpp.o
+                0x0000000000000000                PX4IO::io_reg_get(unsigned char, unsigned char, unsigned short*, unsigned int)
+
+.text._ZN5PX4IO19io_get_raw_rc_inputER15rc_input_values
+                0x0000000000000000       0xb8
+ .text._ZN5PX4IO19io_get_raw_rc_inputER15rc_input_values
+                0x0000000000000000       0xb8 px4io.cpp.o
+                0x0000000000000000                PX4IO::io_get_raw_rc_input(rc_input_values&)
+
+.text._ZN5PX4IO17io_publish_raw_rcEv
+                0x0000000000000000       0x84
+ .text._ZN5PX4IO17io_publish_raw_rcEv
+                0x0000000000000000       0x84 px4io.cpp.o
+                0x0000000000000000                PX4IO::io_publish_raw_rc()
+
+.text._ZN5PX4IO22io_publish_pwm_outputsEv
+                0x0000000000000000       0x8c
+ .text._ZN5PX4IO22io_publish_pwm_outputsEv
+                0x0000000000000000       0x8c px4io.cpp.o
+                0x0000000000000000                PX4IO::io_publish_pwm_outputs()
+
+.text._ZN5PX4IO10io_reg_getEhh
+                0x0000000000000000       0x20
+ .text._ZN5PX4IO10io_reg_getEhh
+                0x0000000000000000       0x20 px4io.cpp.o
+                0x0000000000000000                PX4IO::io_reg_get(unsigned char, unsigned char)
+
+.text._ZN5PX4IO16io_set_rc_configEv
+                0x0000000000000000      0x29c
+ .text._ZN5PX4IO16io_set_rc_configEv
+                0x0000000000000000      0x29c px4io.cpp.o
+                0x0000000000000000                PX4IO::io_set_rc_config()
+
+.text._ZN5PX4IO13io_reg_modifyEhhtt
+                0x0000000000000000       0x3c
+ .text._ZN5PX4IO13io_reg_modifyEhhtt
+                0x0000000000000000       0x3c px4io.cpp.o
+                0x0000000000000000                PX4IO::io_reg_modify(unsigned char, unsigned char, unsigned short, unsigned short)
+
+.text._ZN5PX4IO19io_set_arming_stateEv
+                0x0000000000000000       0xa4
+ .text._ZN5PX4IO19io_set_arming_stateEv
+                0x0000000000000000       0xa4 px4io.cpp.o
+                0x0000000000000000                PX4IO::io_set_arming_state()
+
+.text._ZN5PX4IO22io_disable_rc_handlingEv
+                0x0000000000000000       0x16
+ .text._ZN5PX4IO22io_disable_rc_handlingEv
+                0x0000000000000000       0x16 px4io.cpp.o
+                0x0000000000000000                PX4IO::io_disable_rc_handling()
+
+.text._ZN5PX4IO19disable_rc_handlingEv
+                0x0000000000000000        0xa
+ .text._ZN5PX4IO19disable_rc_handlingEv
+                0x0000000000000000        0xa px4io.cpp.o
+                0x0000000000000000                PX4IO::disable_rc_handling()
+
+.text._ZN5PX4IO16io_handle_statusEt
+                0x0000000000000000       0x9c
+ .text._ZN5PX4IO16io_handle_statusEt
+                0x0000000000000000       0x9c px4io.cpp.o
+                0x0000000000000000                PX4IO::io_handle_status(unsigned short)
+
+.text._ZN5PX4IO13io_get_statusEv
+                0x0000000000000000       0x3e
+ .text._ZN5PX4IO13io_get_statusEv
+                0x0000000000000000       0x3e px4io.cpp.o
+                0x0000000000000000                PX4IO::io_get_status()
+
+.text._ZN5PX4IO9task_mainEv
+                0x0000000000000000      0x3f4
+ .text._ZN5PX4IO9task_mainEv
+                0x0000000000000000      0x3f4 px4io.cpp.o
+                0x0000000000000000                PX4IO::task_main()
+
+.text._ZN5PX4IO20task_main_trampolineEiPPc
+                0x0000000000000000       0x10
+ .text._ZN5PX4IO20task_main_trampolineEiPPc
+                0x0000000000000000       0x10 px4io.cpp.o
+                0x0000000000000000                PX4IO::task_main_trampoline(int, char**)
+
+.text._ZN5PX4IO11print_debugEv
+                0x0000000000000000       0x6c
+ .text._ZN5PX4IO11print_debugEv
+                0x0000000000000000       0x6c px4io.cpp.o
+                0x0000000000000000                PX4IO::print_debug()
+
+.text._ZN5PX4IO10mixer_sendEPKcjj
+                0x0000000000000000      0x180
+ .text._ZN5PX4IO10mixer_sendEPKcjj
+                0x0000000000000000      0x180 px4io.cpp.o
+                0x0000000000000000                PX4IO::mixer_send(char const*, unsigned int, unsigned int)
+
+.text._ZN5PX4IO12print_statusEb
+                0x0000000000000000      0x808
+ .text._ZN5PX4IO12print_statusEb
+                0x0000000000000000      0x808 px4io.cpp.o
+                0x0000000000000000                PX4IO::print_status(bool)
+
+.text._ZN5PX4IO15set_update_rateEi
+                0x0000000000000000       0x40
+ .text._ZN5PX4IO15set_update_rateEi
+                0x0000000000000000       0x40 px4io.cpp.o
+                0x0000000000000000                PX4IO::set_update_rate(int)
+
+.text._ZN5PX4IO27set_battery_current_scalingEff
+                0x0000000000000000        0xa
+ .text._ZN5PX4IO27set_battery_current_scalingEff
+                0x0000000000000000        0xa px4io.cpp.o
+                0x0000000000000000                PX4IO::set_battery_current_scaling(float, float)
+
+.text.px4io_main
+                0x0000000000000000      0xa80
+ .text.px4io_main
+                0x0000000000000000      0xa80 px4io.cpp.o
+                0x0000000000000000                px4io_main
+
+.text._ZN5PX4IO6detectEv
+                0x0000000000000000       0x68
+ .text._ZN5PX4IO6detectEv
+                0x0000000000000000       0x68 px4io.cpp.o
+                0x0000000000000000                PX4IO::detect()
+
+.text._ZN5PX4IO4initEv
+                0x0000000000000000      0x4b8
+ .text._ZN5PX4IO4initEv
+                0x0000000000000000      0x4b8 px4io.cpp.o
+                0x0000000000000000                PX4IO::init()
+
+.text._ZN5PX4IO5ioctlEP4fileim
+                0x0000000000000000      0x5c4
+ .text._ZN5PX4IO5ioctlEP4fileim
+                0x0000000000000000      0x5c4 px4io.cpp.o
+                0x0000000000000000                PX4IO::ioctl(file*, int, unsigned long)
+
+.text._ZN14PX4IO_UploaderD2Ev
+                0x0000000000000000        0xc
+ .text._ZN14PX4IO_UploaderD2Ev
+                0x0000000000000000        0xc px4io_uploader.cpp.o
+                0x0000000000000000                PX4IO_Uploader::~PX4IO_Uploader()
+                0x0000000000000000                PX4IO_Uploader::~PX4IO_Uploader()
+
+.text._ZN14PX4IO_UploaderD0Ev
+                0x0000000000000000       0x14
+ .text._ZN14PX4IO_UploaderD0Ev
+                0x0000000000000000       0x14 px4io_uploader.cpp.o
+                0x0000000000000000                PX4IO_Uploader::~PX4IO_Uploader()
+
+.text._ZL15read_with_retryiPvj
+                0x0000000000000000       0x40
+ .text._ZL15read_with_retryiPvj
+                0x0000000000000000       0x40 px4io_uploader.cpp.o
+
+.text._ZN14PX4IO_UploaderC2Ev
+                0x0000000000000000       0x18
+ .text._ZN14PX4IO_UploaderC2Ev
+                0x0000000000000000       0x18 px4io_uploader.cpp.o
+                0x0000000000000000                PX4IO_Uploader::PX4IO_Uploader()
+                0x0000000000000000                PX4IO_Uploader::PX4IO_Uploader()
+
+.text._ZN14PX4IO_Uploader22recv_byte_with_timeoutEPhj
+                0x0000000000000000       0x32
+ .text._ZN14PX4IO_Uploader22recv_byte_with_timeoutEPhj
+                0x0000000000000000       0x32 px4io_uploader.cpp.o
+                0x0000000000000000                PX4IO_Uploader::recv_byte_with_timeout(unsigned char*, unsigned int)
+
+.text._ZN14PX4IO_Uploader10recv_bytesEPhj
+                0x0000000000000000       0x20
+ .text._ZN14PX4IO_Uploader10recv_bytesEPhj
+                0x0000000000000000       0x20 px4io_uploader.cpp.o
+                0x0000000000000000                PX4IO_Uploader::recv_bytes(unsigned char*, unsigned int)
+
+.text._ZN14PX4IO_Uploader5drainEv
+                0x0000000000000000       0x18
+ .text._ZN14PX4IO_Uploader5drainEv
+                0x0000000000000000       0x18 px4io_uploader.cpp.o
+                0x0000000000000000                PX4IO_Uploader::drain()
+
+.text._ZN14PX4IO_Uploader4sendEh
+                0x0000000000000000       0x28
+ .text._ZN14PX4IO_Uploader4sendEh
+                0x0000000000000000       0x28 px4io_uploader.cpp.o
+                0x0000000000000000                PX4IO_Uploader::send(unsigned char)
+
+.text._ZN14PX4IO_Uploader4sendEPhj
+                0x0000000000000000       0x20
+ .text._ZN14PX4IO_Uploader4sendEPhj
+                0x0000000000000000       0x20 px4io_uploader.cpp.o
+                0x0000000000000000                PX4IO_Uploader::send(unsigned char*, unsigned int)
+
+.text._ZN14PX4IO_Uploader6rebootEv
+                0x0000000000000000       0x20
+ .text._ZN14PX4IO_Uploader6rebootEv
+                0x0000000000000000       0x20 px4io_uploader.cpp.o
+                0x0000000000000000                PX4IO_Uploader::reboot()
+
+.text._ZN14PX4IO_Uploader3logEPKcz
+                0x0000000000000000       0x3c
+ .text._ZN14PX4IO_Uploader3logEPKcz
+                0x0000000000000000       0x3c px4io_uploader.cpp.o
+                0x0000000000000000                PX4IO_Uploader::log(char const*, ...)
+
+.text._ZN14PX4IO_Uploader8get_syncEj
+                0x0000000000000000       0x44
+ .text._ZN14PX4IO_Uploader8get_syncEj
+                0x0000000000000000       0x44 px4io_uploader.cpp.o
+                0x0000000000000000                PX4IO_Uploader::get_sync(unsigned int)
+
+.text._ZN14PX4IO_Uploader4syncEv
+                0x0000000000000000       0x32
+ .text._ZN14PX4IO_Uploader4syncEv
+                0x0000000000000000       0x32 px4io_uploader.cpp.o
+                0x0000000000000000                PX4IO_Uploader::sync()
+
+.text._ZN14PX4IO_Uploader8get_infoEiRj
+                0x0000000000000000       0x38
+ .text._ZN14PX4IO_Uploader8get_infoEiRj
+                0x0000000000000000       0x38 px4io_uploader.cpp.o
+                0x0000000000000000                PX4IO_Uploader::get_info(int, unsigned int&)
+
+.text._ZN14PX4IO_Uploader5eraseEv
+                0x0000000000000000       0x2c
+ .text._ZN14PX4IO_Uploader5eraseEv
+                0x0000000000000000       0x2c px4io_uploader.cpp.o
+                0x0000000000000000                PX4IO_Uploader::erase()
+
+.text._ZN14PX4IO_Uploader7programEj
+                0x0000000000000000       0xdc
+ .text._ZN14PX4IO_Uploader7programEj
+                0x0000000000000000       0xdc px4io_uploader.cpp.o
+                0x0000000000000000                PX4IO_Uploader::program(unsigned int)
+
+.text._ZN14PX4IO_Uploader11verify_rev2Ej
+                0x0000000000000000      0x128
+ .text._ZN14PX4IO_Uploader11verify_rev2Ej
+                0x0000000000000000      0x128 px4io_uploader.cpp.o
+                0x0000000000000000                PX4IO_Uploader::verify_rev2(unsigned int)
+
+.text._ZN14PX4IO_Uploader11verify_rev3Ej
+                0x0000000000000000      0x10c
+ .text._ZN14PX4IO_Uploader11verify_rev3Ej
+                0x0000000000000000      0x10c px4io_uploader.cpp.o
+                0x0000000000000000                PX4IO_Uploader::verify_rev3(unsigned int)
+
+.text._ZN14PX4IO_Uploader6uploadEPPKc
+                0x0000000000000000      0x21c
+ .text._ZN14PX4IO_Uploader6uploadEPPKc
+                0x0000000000000000      0x21c px4io_uploader.cpp.o
+                0x0000000000000000                PX4IO_Uploader::upload(char const**)
+
+.text._ZN12PX4IO_serialD2Ev
+                0x0000000000000000       0xbc
+ .text._ZN12PX4IO_serialD2Ev
+                0x0000000000000000       0xbc px4io_serial.cpp.o
+                0x0000000000000000                PX4IO_serial::~PX4IO_serial()
+                0x0000000000000000                PX4IO_serial::~PX4IO_serial()
+
+.text._ZN12PX4IO_serialD0Ev
+                0x0000000000000000       0x12
+ .text._ZN12PX4IO_serialD0Ev
+                0x0000000000000000       0x12 px4io_serial.cpp.o
+                0x0000000000000000                PX4IO_serial::~PX4IO_serial()
+
+.text._ZN12PX4IO_serial4initEv
+                0x0000000000000000       0xac
+ .text._ZN12PX4IO_serial4initEv
+                0x0000000000000000       0xac px4io_serial.cpp.o
+                0x0000000000000000                PX4IO_serial::init()
+
+.text._ZN12PX4IO_serial5ioctlEjRj
+                0x0000000000000000       0xd8
+ .text._ZN12PX4IO_serial5ioctlEjRj
+                0x0000000000000000       0xd8 px4io_serial.cpp.o
+                0x0000000000000000                PX4IO_serial::ioctl(unsigned int, unsigned int&)
+
+.text._ZN12PX4IO_serialC2Ev
+                0x0000000000000000       0xcc
+ .text._ZN12PX4IO_serialC2Ev
+                0x0000000000000000       0xcc px4io_serial.cpp.o
+                0x0000000000000000                PX4IO_serial::PX4IO_serial()
+                0x0000000000000000                PX4IO_serial::PX4IO_serial()
+
+.text._Z22PX4IO_serial_interfacev
+                0x0000000000000000       0x12
+ .text._Z22PX4IO_serial_interfacev
+                0x0000000000000000       0x12 px4io_serial.cpp.o
+                0x0000000000000000                PX4IO_serial_interface()
+
+.text._ZN12PX4IO_serial19_do_rx_dma_callbackEj
+                0x0000000000000000       0x34
+ .text._ZN12PX4IO_serial19_do_rx_dma_callbackEj
+                0x0000000000000000       0x34 px4io_serial.cpp.o
+                0x0000000000000000                PX4IO_serial::_do_rx_dma_callback(unsigned int)
+
+.text._ZN12PX4IO_serial13_dma_callbackEPvhS0_
+                0x0000000000000000        0xa
+ .text._ZN12PX4IO_serial13_dma_callbackEPvhS0_
+                0x0000000000000000        0xa px4io_serial.cpp.o
+                0x0000000000000000                PX4IO_serial::_dma_callback(void*, unsigned char, void*)
+
+.text._ZN12PX4IO_serial10_abort_dmaEv
+                0x0000000000000000       0x30
+ .text._ZN12PX4IO_serial10_abort_dmaEv
+                0x0000000000000000       0x30 px4io_serial.cpp.o
+                0x0000000000000000                PX4IO_serial::_abort_dma()
+
+.text._ZN12PX4IO_serial14_wait_completeEv
+                0x0000000000000000      0x17c
+ .text._ZN12PX4IO_serial14_wait_completeEv
+                0x0000000000000000      0x17c px4io_serial.cpp.o
+                0x0000000000000000                PX4IO_serial::_wait_complete()
+
+.text._ZN12PX4IO_serial5writeEjPvj
+                0x0000000000000000       0xb4
+ .text._ZN12PX4IO_serial5writeEjPvj
+                0x0000000000000000       0xb4 px4io_serial.cpp.o
+                0x0000000000000000                PX4IO_serial::write(unsigned int, void*, unsigned int)
+
+.text._ZN12PX4IO_serial4readEjPvj
+                0x0000000000000000       0x9c
+ .text._ZN12PX4IO_serial4readEjPvj
+                0x0000000000000000       0x9c px4io_serial.cpp.o
+                0x0000000000000000                PX4IO_serial::read(unsigned int, void*, unsigned int)
+
+.text._ZN12PX4IO_serial13_do_interruptEv
+                0x0000000000000000       0x80
+ .text._ZN12PX4IO_serial13_do_interruptEv
+                0x0000000000000000       0x80 px4io_serial.cpp.o
+                0x0000000000000000                PX4IO_serial::_do_interrupt()
+
+.text._ZN12PX4IO_serial10_interruptEiPv
+                0x0000000000000000       0x14
+ .text._ZN12PX4IO_serial10_interruptEiPv
+                0x0000000000000000       0x14 px4io_serial.cpp.o
+                0x0000000000000000                PX4IO_serial::_interrupt(int, void*)
+
+.fini
+ *(SORT(.fini))
+
+.rodata
+ *(.rodata)
+
+.rodata.str1.1  0x0000000000000000     0x18a4
+ .rodata.str1.1
+                0x0000000000000000     0x14b2 px4io.cpp.o
+ .rodata.str1.1
+                0x00000000000014b2      0x31d px4io_uploader.cpp.o
+ .rodata.str1.1
+                0x00000000000017cf       0xd5 px4io_serial.cpp.o
+
+.rodata._ZTV5PX4IO
+                0x0000000000000000       0x60
+ .rodata._ZTV5PX4IO
+                0x0000000000000000       0x60 px4io.cpp.o
+                0x0000000000000000                vtable for PX4IO
+
+.rodata._ZTV14PX4IO_Uploader
+                0x0000000000000000       0x10
+ .rodata._ZTV14PX4IO_Uploader
+                0x0000000000000000       0x10 px4io_uploader.cpp.o
+                0x0000000000000000                vtable for PX4IO_Uploader
+
+.rodata._ZTV12PX4IO_serial
+                0x0000000000000000       0x28
+ .rodata._ZTV12PX4IO_serial
+                0x0000000000000000       0x28 px4io_serial.cpp.o
+                0x0000000000000000                vtable for PX4IO_serial
+
+.rodata._ZL8crc8_tab
+                0x0000000000000000      0x100
+ .rodata._ZL8crc8_tab
+                0x0000000000000000      0x100 px4io_serial.cpp.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x0000000000000000        0x0
+ *(.data)
+ .data          0x0000000000000000        0x0 px4io.cpp.o
+ .data          0x0000000000000000        0x0 px4io_uploader.cpp.o
+ .data          0x0000000000000000        0x0 px4io_serial.cpp.o
+ .data          0x0000000000000000        0x0 px4io_i2c.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x0000000000000000        0x0 px4io.cpp.o
+ .bss           0x0000000000000000        0x0 px4io_uploader.cpp.o
+ .bss           0x0000000000000000        0x0 px4io_serial.cpp.o
+ .bss           0x0000000000000000        0x0 px4io_i2c.cpp.o
+ *(COMMON)
+
+.bss._ZN12_GLOBAL__N_15g_devE
+                0x0000000000000000        0x4
+ .bss._ZN12_GLOBAL__N_15g_devE
+                0x0000000000000000        0x4 px4io.cpp.o
+
+.bss._ZL11g_interface
+                0x0000000000000000        0x4
+ .bss._ZL11g_interface
+                0x0000000000000000        0x4 px4io_serial.cpp.o
+
+.bss._ZN12PX4IO_serial11_dma_bufferE
+                0x0000000000000000       0x44
+ .bss._ZN12PX4IO_serial11_dma_bufferE
+                0x0000000000000000       0x44 px4io_serial.cpp.o
+                0x0000000000000000                PX4IO_serial::_dma_buffer
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000      0x1c4
+ *(.comment)
+ .comment       0x0000000000000000       0x71 px4io.cpp.o
+ .comment       0x0000000000000071       0x71 px4io_uploader.cpp.o
+ .comment       0x00000000000000e2       0x71 px4io_serial.cpp.o
+ .comment       0x0000000000000153       0x71 px4io_i2c.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io_uploader.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 px4io_i2c.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x290
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x140 px4io.cpp.o
+ .debug_aranges
+                0x0000000000000140       0xb0 px4io_uploader.cpp.o
+ .debug_aranges
+                0x00000000000001f0       0x88 px4io_serial.cpp.o
+ .debug_aranges
+                0x0000000000000278       0x18 px4io_i2c.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x12da1
+ *(.debug_info)
+ .debug_info    0x0000000000000000     0xadd7 px4io.cpp.o
+ .debug_info    0x000000000000add7     0x27d0 px4io_uploader.cpp.o
+ .debug_info    0x000000000000d5a7     0x576f px4io_serial.cpp.o
+ .debug_info    0x0000000000012d16       0x8b px4io_i2c.cpp.o
+
+.debug_abbrev   0x0000000000000000     0x142c
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x92a px4io.cpp.o
+ .debug_abbrev  0x000000000000092a      0x4e7 px4io_uploader.cpp.o
+ .debug_abbrev  0x0000000000000e11      0x5e7 px4io_serial.cpp.o
+ .debug_abbrev  0x00000000000013f8       0x34 px4io_i2c.cpp.o
+
+.debug_line     0x0000000000000000     0x60e3
+ *(.debug_line)
+ .debug_line    0x0000000000000000     0x2655 px4io.cpp.o
+ .debug_line    0x0000000000002655     0x121b px4io_uploader.cpp.o
+ .debug_line    0x0000000000003870     0x19fa px4io_serial.cpp.o
+ .debug_line    0x000000000000526a      0xe79 px4io_i2c.cpp.o
+
+.debug_frame    0x0000000000000000      0x870
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x48c px4io.cpp.o
+ .debug_frame   0x000000000000048c      0x248 px4io_uploader.cpp.o
+ .debug_frame   0x00000000000006d4      0x19c px4io_serial.cpp.o
+
+.debug_str      0x0000000000000000   0x124d97
+ *(.debug_str)
+ .debug_str     0x0000000000000000    0x4e048 px4io.cpp.o
+ .debug_str     0x000000000004e048    0x46f9f px4io_uploader.cpp.o
+ .debug_str     0x0000000000094fe7    0x4b1a2 px4io_serial.cpp.o
+ .debug_str     0x00000000000e0189    0x44c0e px4io_i2c.cpp.o
+
+.debug_loc      0x0000000000000000     0x48e4
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x3108 px4io.cpp.o
+ .debug_loc     0x0000000000003108      0xcba px4io_uploader.cpp.o
+ .debug_loc     0x0000000000003dc2      0xb22 px4io_serial.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x720
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x478 px4io.cpp.o
+ .debug_ranges  0x0000000000000478      0x178 px4io_uploader.cpp.o
+ .debug_ranges  0x00000000000005f0      0x130 px4io_serial.cpp.o
+
+.debug_macro    0x0000000000000000     0x1605
+ *(.debug_macro)
+ .debug_macro   0x0000000000000000      0x750 px4io.cpp.o
+ .debug_macro   0x0000000000000750      0x4b7 px4io_uploader.cpp.o
+ .debug_macro   0x0000000000000c07      0x5fb px4io_serial.cpp.o
+ .debug_macro   0x0000000000001202      0x403 px4io_i2c.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x0000000000000000       0x35
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x35 px4io.cpp.o
+ .ARM.attributes
+                0x0000000000000035       0x35 px4io_uploader.cpp.o
+ .ARM.attributes
+                0x000000000000006a       0x35 px4io_serial.cpp.o
+ .ARM.attributes
+                0x000000000000009f       0x35 px4io_i2c.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4fmu-v2_APM.build//Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/src/drivers/px4io/module.pre.o elf32-littlearm)
+
+.debug_macro    0x0000000000000000      0x8bc
+ .debug_macro   0x0000000000000000      0x8bc px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x89f
+ .debug_macro   0x0000000000000000      0x89f px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0xc9
+ .debug_macro   0x0000000000000000       0xc9 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x88
+ .debug_macro   0x0000000000000000       0x88 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x14e
+ .debug_macro   0x0000000000000000      0x14e px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x125
+ .debug_macro   0x0000000000000000      0x125 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x5d
+ .debug_macro   0x0000000000000000       0x5d px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x59
+ .debug_macro   0x0000000000000000       0x59 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x58
+ .debug_macro   0x0000000000000000       0x58 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x24e
+ .debug_macro   0x0000000000000000      0x24e px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x49
+ .debug_macro   0x0000000000000000       0x49 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x4c
+ .debug_macro   0x0000000000000000       0x4c px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x6c1
+ .debug_macro   0x0000000000000000      0x6c1 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x10c
+ .debug_macro   0x0000000000000000      0x10c px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x23
+ .debug_macro   0x0000000000000000       0x23 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0xd1
+ .debug_macro   0x0000000000000000       0xd1 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x98
+ .debug_macro   0x0000000000000000       0x98 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x11b
+ .debug_macro   0x0000000000000000      0x11b px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x46
+ .debug_macro   0x0000000000000000       0x46 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x27f
+ .debug_macro   0x0000000000000000      0x27f px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x195
+ .debug_macro   0x0000000000000000      0x195 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x8a
+ .debug_macro   0x0000000000000000       0x8a px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x39
+ .debug_macro   0x0000000000000000       0x39 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0xb4
+ .debug_macro   0x0000000000000000       0xb4 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x41
+ .debug_macro   0x0000000000000000       0x41 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x4d
+ .debug_macro   0x0000000000000000       0x4d px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x5e
+ .debug_macro   0x0000000000000000       0x5e px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x14d
+ .debug_macro   0x0000000000000000      0x14d px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x58
+ .debug_macro   0x0000000000000000       0x58 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x2e
+ .debug_macro   0x0000000000000000       0x2e px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0xa3
+ .debug_macro   0x0000000000000000       0xa3 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x281
+ .debug_macro   0x0000000000000000      0x281 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x78
+ .debug_macro   0x0000000000000000       0x78 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x6cb
+ .debug_macro   0x0000000000000000      0x6cb px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x20a
+ .debug_macro   0x0000000000000000      0x20a px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0xf6f
+ .debug_macro   0x0000000000000000      0xf6f px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x2ab
+ .debug_macro   0x0000000000000000      0x2ab px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x8b5
+ .debug_macro   0x0000000000000000      0x8b5 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x78
+ .debug_macro   0x0000000000000000       0x78 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x14e
+ .debug_macro   0x0000000000000000      0x14e px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x7ca
+ .debug_macro   0x0000000000000000      0x7ca px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0xff
+ .debug_macro   0x0000000000000000       0xff px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0xae7
+ .debug_macro   0x0000000000000000      0xae7 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x51
+ .debug_macro   0x0000000000000000       0x51 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x11a
+ .debug_macro   0x0000000000000000      0x11a px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x1d
+ .debug_macro   0x0000000000000000       0x1d px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x206
+ .debug_macro   0x0000000000000000      0x206 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x56a
+ .debug_macro   0x0000000000000000      0x56a px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x9c
+ .debug_macro   0x0000000000000000       0x9c px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x2bf
+ .debug_macro   0x0000000000000000      0x2bf px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0xd3
+ .debug_macro   0x0000000000000000       0xd3 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x34
+ .debug_macro   0x0000000000000000       0x34 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0xab0
+ .debug_macro   0x0000000000000000      0xab0 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x17
+ .debug_macro   0x0000000000000000       0x17 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x6fa
+ .debug_macro   0x0000000000000000      0x6fa px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x596
+ .debug_macro   0x0000000000000000      0x596 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x29b
+ .debug_macro   0x0000000000000000      0x29b px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 px4io.cpp.o
+
+.debug_macro    0x0000000000000000     0x15a4
+ .debug_macro   0x0000000000000000     0x15a4 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x53
+ .debug_macro   0x0000000000000000       0x53 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x347
+ .debug_macro   0x0000000000000000      0x347 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x96
+ .debug_macro   0x0000000000000000       0x96 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x9a
+ .debug_macro   0x0000000000000000       0x9a px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x1cf
+ .debug_macro   0x0000000000000000      0x1cf px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x16c
+ .debug_macro   0x0000000000000000      0x16c px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x413
+ .debug_macro   0x0000000000000000      0x413 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x5f
+ .debug_macro   0x0000000000000000       0x5f px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x1d
+ .debug_macro   0x0000000000000000       0x1d px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0xdf
+ .debug_macro   0x0000000000000000       0xdf px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x13f
+ .debug_macro   0x0000000000000000      0x13f px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0xdb4
+ .debug_macro   0x0000000000000000      0xdb4 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x215
+ .debug_macro   0x0000000000000000      0x215 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x59
+ .debug_macro   0x0000000000000000       0x59 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x29
+ .debug_macro   0x0000000000000000       0x29 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x46
+ .debug_macro   0x0000000000000000       0x46 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x32
+ .debug_macro   0x0000000000000000       0x32 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x14a
+ .debug_macro   0x0000000000000000      0x14a px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0xb6
+ .debug_macro   0x0000000000000000       0xb6 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x18
+ .debug_macro   0x0000000000000000       0x18 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x3a
+ .debug_macro   0x0000000000000000       0x3a px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x2b
+ .debug_macro   0x0000000000000000       0x2b px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x167
+ .debug_macro   0x0000000000000000      0x167 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x30
+ .debug_macro   0x0000000000000000       0x30 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x34
+ .debug_macro   0x0000000000000000       0x34 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x34
+ .debug_macro   0x0000000000000000       0x34 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x4d
+ .debug_macro   0x0000000000000000       0x4d px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x3ea
+ .debug_macro   0x0000000000000000      0x3ea px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 px4io.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 px4io.cpp.o
+
+.debug_macro    0x0000000000000000      0x106
+ .debug_macro   0x0000000000000000      0x106 px4io_uploader.cpp.o
+
+.debug_macro    0x0000000000000000      0x333
+ .debug_macro   0x0000000000000000      0x333 px4io_uploader.cpp.o
+
+.debug_macro    0x0000000000000000       0xd1
+ .debug_macro   0x0000000000000000       0xd1 px4io_uploader.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 px4io_uploader.cpp.o
+
+.debug_macro    0x0000000000000000       0x19
+ .debug_macro   0x0000000000000000       0x19 px4io_uploader.cpp.o
+
+.debug_macro    0x0000000000000000      0x21b
+ .debug_macro   0x0000000000000000      0x21b px4io_uploader.cpp.o
+
+.debug_macro    0x0000000000000000      0x24d
+ .debug_macro   0x0000000000000000      0x24d px4io_uploader.cpp.o
+
+.debug_macro    0x0000000000000000       0x4c
+ .debug_macro   0x0000000000000000       0x4c px4io_i2c.cpp.o

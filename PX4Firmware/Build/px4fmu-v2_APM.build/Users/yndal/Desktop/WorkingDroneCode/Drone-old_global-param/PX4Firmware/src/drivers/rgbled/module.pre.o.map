@@ -1,0 +1,1005 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD rgbled.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT(.init))
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x0000000000000000        0x0
+ *(.text .stub)
+ .text          0x0000000000000000        0x0 rgbled.cpp.o
+ *(.gnu.warning)
+
+.text._ZN6RGBLEDD2Ev
+                0x0000000000000000       0x14
+ .text._ZN6RGBLEDD2Ev
+                0x0000000000000000       0x14 rgbled.cpp.o
+                0x0000000000000000                RGBLED::~RGBLED()
+                0x0000000000000000                RGBLED::~RGBLED()
+
+.text._ZN6RGBLEDD0Ev
+                0x0000000000000000       0x12
+ .text._ZN6RGBLEDD0Ev
+                0x0000000000000000       0x12 rgbled.cpp.o
+                0x0000000000000000                RGBLED::~RGBLED()
+
+.text._ZN6RGBLEDC2Eii
+                0x0000000000000000       0x78
+ .text._ZN6RGBLEDC2Eii
+                0x0000000000000000       0x78 rgbled.cpp.o
+                0x0000000000000000                RGBLED::RGBLED(int, int)
+                0x0000000000000000                RGBLED::RGBLED(int, int)
+
+.text._ZN6RGBLED9set_colorE14rgbled_color_t
+                0x0000000000000000       0xb8
+ .text._ZN6RGBLED9set_colorE14rgbled_color_t
+                0x0000000000000000       0xb8 rgbled.cpp.o
+                0x0000000000000000                RGBLED::set_color(rgbled_color_t)
+
+.text._ZN6RGBLED11set_patternEP16rgbled_pattern_t
+                0x0000000000000000        0x8
+ .text._ZN6RGBLED11set_patternEP16rgbled_pattern_t
+                0x0000000000000000        0x8 rgbled.cpp.o
+                0x0000000000000000                RGBLED::set_pattern(rgbled_pattern_t*)
+
+.text._ZN6RGBLED15send_led_enableEb
+                0x0000000000000000       0x2a
+ .text._ZN6RGBLED15send_led_enableEb
+                0x0000000000000000       0x2a rgbled.cpp.o
+                0x0000000000000000                RGBLED::send_led_enable(bool)
+
+.text._ZN6RGBLED12send_led_rgbEv
+                0x0000000000000000       0x84
+ .text._ZN6RGBLED12send_led_rgbEv
+                0x0000000000000000       0x84 rgbled.cpp.o
+                0x0000000000000000                RGBLED::send_led_rgb()
+
+.text._ZN6RGBLED3ledEv
+                0x0000000000000000       0xdc
+ .text._ZN6RGBLED3ledEv
+                0x0000000000000000       0xdc rgbled.cpp.o
+                0x0000000000000000                RGBLED::led()
+
+.text._ZN6RGBLED14led_trampolineEPv
+                0x0000000000000000        0x4
+ .text._ZN6RGBLED14led_trampolineEPv
+                0x0000000000000000        0x4 rgbled.cpp.o
+                0x0000000000000000                RGBLED::led_trampoline(void*)
+
+.text._ZN6RGBLED8set_modeE13rgbled_mode_t
+                0x0000000000000000       0xe4
+ .text._ZN6RGBLED8set_modeE13rgbled_mode_t
+                0x0000000000000000       0xe4 rgbled.cpp.o
+                0x0000000000000000                RGBLED::set_mode(rgbled_mode_t)
+
+.text._ZN6RGBLED3getERbS0_RhS1_S1_
+                0x0000000000000000       0x48
+ .text._ZN6RGBLED3getERbS0_RhS1_S1_
+                0x0000000000000000       0x48 rgbled.cpp.o
+                0x0000000000000000                RGBLED::get(bool&, bool&, unsigned char&, unsigned char&, unsigned char&)
+
+.text._ZN6RGBLED5probeEv
+                0x0000000000000000       0x46
+ .text._ZN6RGBLED5probeEv
+                0x0000000000000000       0x46 rgbled.cpp.o
+                0x0000000000000000                RGBLED::probe()
+
+.text._ZN6RGBLED4infoEv
+                0x0000000000000000       0x70
+ .text._ZN6RGBLED4infoEv
+                0x0000000000000000       0x70 rgbled.cpp.o
+                0x0000000000000000                RGBLED::info()
+
+.text._Z12rgbled_usagev
+                0x0000000000000000       0x34
+ .text._Z12rgbled_usagev
+                0x0000000000000000       0x34 rgbled.cpp.o
+                0x0000000000000000                rgbled_usage()
+
+.text.rgbled_main
+                0x0000000000000000      0x29c
+ .text.rgbled_main
+                0x0000000000000000      0x29c rgbled.cpp.o
+                0x0000000000000000                rgbled_main
+
+.text._ZN6RGBLED4initEv
+                0x0000000000000000       0x1e
+ .text._ZN6RGBLED4initEv
+                0x0000000000000000       0x1e rgbled.cpp.o
+                0x0000000000000000                RGBLED::init()
+
+.text._ZN6RGBLED5ioctlEP4fileim
+                0x0000000000000000       0x5c
+ .text._ZN6RGBLED5ioctlEP4fileim
+                0x0000000000000000       0x5c rgbled.cpp.o
+                0x0000000000000000                RGBLED::ioctl(file*, int, unsigned long)
+
+.fini
+ *(SORT(.fini))
+
+.rodata
+ *(.rodata)
+
+.rodata._ZTV6RGBLED
+                0x0000000000000000       0x68
+ .rodata._ZTV6RGBLED
+                0x0000000000000000       0x68 rgbled.cpp.o
+                0x0000000000000000                vtable for RGBLED
+
+.rodata.str1.1  0x0000000000000000      0x183
+ .rodata.str1.1
+                0x0000000000000000      0x183 rgbled.cpp.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x0000000000000000        0x0
+ *(.data)
+ .data          0x0000000000000000        0x0 rgbled.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x0000000000000000        0x0 rgbled.cpp.o
+ *(COMMON)
+
+.bss._ZN12_GLOBAL__N_18g_rgbledE
+                0x0000000000000000        0x4
+ .bss._ZN12_GLOBAL__N_18g_rgbledE
+                0x0000000000000000        0x4 rgbled.cpp.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x71
+ *(.comment)
+ .comment       0x0000000000000000       0x71 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 rgbled.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0xa0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0xa0 rgbled.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x591f
+ *(.debug_info)
+ .debug_info    0x0000000000000000     0x591f rgbled.cpp.o
+
+.debug_abbrev   0x0000000000000000      0x672
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x672 rgbled.cpp.o
+
+.debug_line     0x0000000000000000     0x1958
+ *(.debug_line)
+ .debug_line    0x0000000000000000     0x1958 rgbled.cpp.o
+
+.debug_frame    0x0000000000000000      0x1dc
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x1dc rgbled.cpp.o
+
+.debug_str      0x0000000000000000    0x4a054
+ *(.debug_str)
+ .debug_str     0x0000000000000000    0x4a054 rgbled.cpp.o
+
+.debug_loc      0x0000000000000000      0x999
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x999 rgbled.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0x100
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x100 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x60c
+ *(.debug_macro)
+ .debug_macro   0x0000000000000000      0x60c rgbled.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x0000000000000000       0x35
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x35 rgbled.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4fmu-v2_APM.build//Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/src/drivers/rgbled/module.pre.o elf32-littlearm)
+
+.debug_macro    0x0000000000000000      0x8bc
+ .debug_macro   0x0000000000000000      0x8bc rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x89f
+ .debug_macro   0x0000000000000000      0x89f rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0xc9
+ .debug_macro   0x0000000000000000       0xc9 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x6bb
+ .debug_macro   0x0000000000000000      0x6bb rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x88
+ .debug_macro   0x0000000000000000       0x88 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x14e
+ .debug_macro   0x0000000000000000      0x14e rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x125
+ .debug_macro   0x0000000000000000      0x125 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x5d
+ .debug_macro   0x0000000000000000       0x5d rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x23
+ .debug_macro   0x0000000000000000       0x23 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x53
+ .debug_macro   0x0000000000000000       0x53 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x39
+ .debug_macro   0x0000000000000000       0x39 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x9c
+ .debug_macro   0x0000000000000000       0x9c rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x5e
+ .debug_macro   0x0000000000000000       0x5e rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x14d
+ .debug_macro   0x0000000000000000      0x14d rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0xd1
+ .debug_macro   0x0000000000000000       0xd1 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x58
+ .debug_macro   0x0000000000000000       0x58 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x4c
+ .debug_macro   0x0000000000000000       0x4c rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x49
+ .debug_macro   0x0000000000000000       0x49 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x106
+ .debug_macro   0x0000000000000000      0x106 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x98
+ .debug_macro   0x0000000000000000       0x98 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x59
+ .debug_macro   0x0000000000000000       0x59 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x11b
+ .debug_macro   0x0000000000000000      0x11b rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x46
+ .debug_macro   0x0000000000000000       0x46 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x27f
+ .debug_macro   0x0000000000000000      0x27f rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x195
+ .debug_macro   0x0000000000000000      0x195 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x8a
+ .debug_macro   0x0000000000000000       0x8a rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0xb4
+ .debug_macro   0x0000000000000000       0xb4 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x41
+ .debug_macro   0x0000000000000000       0x41 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x4d
+ .debug_macro   0x0000000000000000       0x4d rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0xa4
+ .debug_macro   0x0000000000000000       0xa4 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x4d
+ .debug_macro   0x0000000000000000       0x4d rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x29
+ .debug_macro   0x0000000000000000       0x29 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x2b
+ .debug_macro   0x0000000000000000       0x2b rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x167
+ .debug_macro   0x0000000000000000      0x167 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x30
+ .debug_macro   0x0000000000000000       0x30 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x78
+ .debug_macro   0x0000000000000000       0x78 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x6cb
+ .debug_macro   0x0000000000000000      0x6cb rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x20a
+ .debug_macro   0x0000000000000000      0x20a rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0xf6f
+ .debug_macro   0x0000000000000000      0xf6f rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x2ab
+ .debug_macro   0x0000000000000000      0x2ab rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x8b5
+ .debug_macro   0x0000000000000000      0x8b5 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x78
+ .debug_macro   0x0000000000000000       0x78 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x14e
+ .debug_macro   0x0000000000000000      0x14e rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x7ca
+ .debug_macro   0x0000000000000000      0x7ca rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0xff
+ .debug_macro   0x0000000000000000       0xff rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0xae7
+ .debug_macro   0x0000000000000000      0xae7 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x51
+ .debug_macro   0x0000000000000000       0x51 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x11a
+ .debug_macro   0x0000000000000000      0x11a rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x1d
+ .debug_macro   0x0000000000000000       0x1d rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x206
+ .debug_macro   0x0000000000000000      0x206 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x56a
+ .debug_macro   0x0000000000000000      0x56a rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x2bf
+ .debug_macro   0x0000000000000000      0x2bf rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0xd3
+ .debug_macro   0x0000000000000000       0xd3 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x34
+ .debug_macro   0x0000000000000000       0x34 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0xab0
+ .debug_macro   0x0000000000000000      0xab0 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x17
+ .debug_macro   0x0000000000000000       0x17 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x6fa
+ .debug_macro   0x0000000000000000      0x6fa rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x596
+ .debug_macro   0x0000000000000000      0x596 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x29b
+ .debug_macro   0x0000000000000000      0x29b rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000     0x15a4
+ .debug_macro   0x0000000000000000     0x15a4 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x53
+ .debug_macro   0x0000000000000000       0x53 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x347
+ .debug_macro   0x0000000000000000      0x347 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x96
+ .debug_macro   0x0000000000000000       0x96 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x9a
+ .debug_macro   0x0000000000000000       0x9a rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x1cf
+ .debug_macro   0x0000000000000000      0x1cf rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x16c
+ .debug_macro   0x0000000000000000      0x16c rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x413
+ .debug_macro   0x0000000000000000      0x413 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x5f
+ .debug_macro   0x0000000000000000       0x5f rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x1d
+ .debug_macro   0x0000000000000000       0x1d rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0xdf
+ .debug_macro   0x0000000000000000       0xdf rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x13f
+ .debug_macro   0x0000000000000000      0x13f rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0xdb4
+ .debug_macro   0x0000000000000000      0xdb4 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x21b
+ .debug_macro   0x0000000000000000      0x21b rgbled.cpp.o
+
+.debug_macro    0x0000000000000000      0x24d
+ .debug_macro   0x0000000000000000      0x24d rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c rgbled.cpp.o
+
+.debug_macro    0x0000000000000000       0x46
+ .debug_macro   0x0000000000000000       0x46 rgbled.cpp.o

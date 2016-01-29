@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AidlLib/AidlLib.iml" filepath="$PROJECT_DIR$/AidlLib/AidlLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android/Android.iml" filepath="$PROJECT_DIR$/Android/Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClientLib/ClientLib.iml" filepath="$PROJECT_DIR$/ClientLib/ClientLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dependencyLibs/Core/Core.iml" filepath="$PROJECT_DIR$/dependencyLibs/Core/Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dependencyLibs/EllipsoidFit/EllipsoidFit.iml" filepath="$PROJECT_DIR$/dependencyLibs/EllipsoidFit/EllipsoidFit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dependencyLibs/EllipsoidFit/EllipsoidFit/EllipsoidFit-EllipsoidFit.iml" filepath="$PROJECT_DIR$/dependencyLibs/EllipsoidFit/EllipsoidFit/EllipsoidFit-EllipsoidFit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dependencyLibs/Mavlink/Mavlink.iml" filepath="$PROJECT_DIR$/dependencyLibs/Mavlink/Mavlink.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServiceApp/ServiceApp.iml" filepath="$PROJECT_DIR$/ServiceApp/ServiceApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tower_with_3drservices.iml" filepath="$PROJECT_DIR$/Tower_with_3drservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dependencyLibs/usb-serial-for-android/UsbSerialLibrary/UsbSerialLibrary.iml" filepath="$PROJECT_DIR$/dependencyLibs/usb-serial-for-android/UsbSerialLibrary/UsbSerialLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dependencyLibs/dependencyLibs.iml" filepath="$PROJECT_DIR$/dependencyLibs/dependencyLibs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClientLib/mobile/mobile.iml" filepath="$PROJECT_DIR$/ClientLib/mobile/mobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dependencyLibs/usb-serial-for-android/usb-serial-for-android.iml" filepath="$PROJECT_DIR$/dependencyLibs/usb-serial-for-android/usb-serial-for-android.iml" />
+    </modules>
+  </component>
+</project>

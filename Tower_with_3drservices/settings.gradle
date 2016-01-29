@@ -1,0 +1,2 @@
+//Android projects
+include ':Android', ':dependencyLibs:EllipsoidFit:EllipsoidFit', ':AidlLib', ':dependencyLibs:usb-serial-for-android:UsbSerialLibrary', ':ServiceApp', ':ClientLib:mobile', ':dependencyLibs:Core', ':dependencyLibs:Mavlink'

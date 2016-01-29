@@ -1,0 +1,968 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD adc.cpp.o
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+
+.rela.text
+ *(.rela.text)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+
+.rela.rodata
+ *(.rela.rodata)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro)
+
+.rela.data.rel.ro
+ *(.rela.data.rel.ro)
+
+.rel.data
+ *(.rel.data)
+
+.rela.data
+ *(.rela.data)
+
+.rel.tdata
+ *(.rel.tdata)
+
+.rela.tdata
+ *(.rela.tdata)
+
+.rel.tbss
+ *(.rel.tbss)
+
+.rela.tbss
+ *(.rela.tbss)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.iplt
+ *(.rel.iplt)
+
+.rela.iplt
+ *(.rela.iplt)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT(.init))
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x0000000000000000        0x0
+ *(.text .stub)
+ .text          0x0000000000000000        0x0 adc.cpp.o
+ *(.gnu.warning)
+
+.text._ZN3ADC5ioctlEP4fileim
+                0x0000000000000000        0x6
+ .text._ZN3ADC5ioctlEP4fileim
+                0x0000000000000000        0x6 adc.cpp.o
+                0x0000000000000000                ADC::ioctl(file*, int, unsigned long)
+
+.text._ZN3ADCD2Ev
+                0x0000000000000000       0x20
+ .text._ZN3ADCD2Ev
+                0x0000000000000000       0x20 adc.cpp.o
+                0x0000000000000000                ADC::~ADC()
+                0x0000000000000000                ADC::~ADC()
+
+.text._ZN3ADCD0Ev
+                0x0000000000000000       0x12
+ .text._ZN3ADCD0Ev
+                0x0000000000000000       0x12 adc.cpp.o
+                0x0000000000000000                ADC::~ADC()
+
+.text._ZN3ADC4readEP4filePcj
+                0x0000000000000000       0x30
+ .text._ZN3ADC4readEP4filePcj
+                0x0000000000000000       0x30 adc.cpp.o
+                0x0000000000000000                ADC::read(file*, char*, unsigned int)
+
+.text._ZN3ADC10close_lastEP4file
+                0x0000000000000000        0xc
+ .text._ZN3ADC10close_lastEP4file
+                0x0000000000000000        0xc adc.cpp.o
+                0x0000000000000000                ADC::close_last(file*)
+
+.text._ZN3ADCC2Ej
+                0x0000000000000000       0xa4
+ .text._ZN3ADCC2Ej
+                0x0000000000000000       0xa4 adc.cpp.o
+                0x0000000000000000                ADC::ADC(unsigned int)
+                0x0000000000000000                ADC::ADC(unsigned int)
+
+.text._ZN3ADC19update_system_powerEv
+                0x0000000000000000       0xec
+ .text._ZN3ADC19update_system_powerEv
+                0x0000000000000000       0xec adc.cpp.o
+                0x0000000000000000                ADC::update_system_power()
+
+.text._ZN3ADC7_sampleEj
+                0x0000000000000000       0x7c
+ .text._ZN3ADC7_sampleEj
+                0x0000000000000000       0x7c adc.cpp.o
+                0x0000000000000000                ADC::_sample(unsigned int)
+
+.text._ZN3ADC5_tickEv
+                0x0000000000000000       0x30
+ .text._ZN3ADC5_tickEv
+                0x0000000000000000       0x30 adc.cpp.o
+                0x0000000000000000                ADC::_tick()
+
+.text._ZN3ADC10open_firstEP4file
+                0x0000000000000000       0x2c
+ .text._ZN3ADC10open_firstEP4file
+                0x0000000000000000       0x2c adc.cpp.o
+                0x0000000000000000                ADC::open_first(file*)
+
+.text._ZN3ADC16_tick_trampolineEPv
+                0x0000000000000000        0x4
+ .text._ZN3ADC16_tick_trampolineEPv
+                0x0000000000000000        0x4 adc.cpp.o
+                0x0000000000000000                ADC::_tick_trampoline(void*)
+
+.text.adc_main  0x0000000000000000       0xe4
+ .text.adc_main
+                0x0000000000000000       0xe4 adc.cpp.o
+                0x0000000000000000                adc_main
+
+.text._ZN3ADC4initEv
+                0x0000000000000000       0xc0
+ .text._ZN3ADC4initEv
+                0x0000000000000000       0xc0 adc.cpp.o
+                0x0000000000000000                ADC::init()
+
+.fini
+ *(SORT(.fini))
+
+.rodata
+ *(.rodata)
+
+.rodata._ZTV3ADC
+                0x0000000000000000       0x60
+ .rodata._ZTV3ADC
+                0x0000000000000000       0x60 adc.cpp.o
+                0x0000000000000000                vtable for ADC
+
+.rodata.str1.1  0x0000000000000000       0x95
+ .rodata.str1.1
+                0x0000000000000000       0x95 adc.cpp.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab)
+
+.ARM.exidx
+ *(.ARM.exidx)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata)
+
+.tbss
+ *(.tbss)
+
+.preinit_array
+ *(.preinit_array)
+
+.jcr
+ *(.jcr)
+
+.dynamic
+ *(.dynamic)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.data           0x0000000000000000        0x0
+ *(.data)
+ .data          0x0000000000000000        0x0 adc.cpp.o
+
+.data1
+ *(.data1)
+
+.bss            0x0000000000000000        0x0
+ *(.dynbss)
+ *(.bss)
+ .bss           0x0000000000000000        0x0 adc.cpp.o
+ *(COMMON)
+
+.bss._ZN12_GLOBAL__N_15g_adcE
+                0x0000000000000000        0x4
+ .bss._ZN12_GLOBAL__N_15g_adcE
+                0x0000000000000000        0x4 adc.cpp.o
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x71
+ *(.comment)
+ .comment       0x0000000000000000       0x71 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.group          0x0000000000000000        0x8
+ .group         0x0000000000000000        0x8 adc.cpp.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0x80
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x80 adc.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x52ad
+ *(.debug_info)
+ .debug_info    0x0000000000000000     0x52ad adc.cpp.o
+
+.debug_abbrev   0x0000000000000000      0x741
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x741 adc.cpp.o
+
+.debug_line     0x0000000000000000     0x1922
+ *(.debug_line)
+ .debug_line    0x0000000000000000     0x1922 adc.cpp.o
+
+.debug_frame    0x0000000000000000      0x16c
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x16c adc.cpp.o
+
+.debug_str      0x0000000000000000    0x49b96
+ *(.debug_str)
+ .debug_str     0x0000000000000000    0x49b96 adc.cpp.o
+
+.debug_loc      0x0000000000000000      0x599
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x599 adc.cpp.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000       0xf0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0xf0 adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x63e
+ *(.debug_macro)
+ .debug_macro   0x0000000000000000      0x63e adc.cpp.o
+
+.stack
+ *(.stack)
+
+.ARM.attributes
+                0x0000000000000000       0x35
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x35 adc.cpp.o
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+OUTPUT(/Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/Build/px4fmu-v2_APM.build//Users/yndal/Desktop/WorkingDroneCode/Drone-old_global-param/PX4Firmware/src/drivers/stm32/adc/module.pre.o elf32-littlearm)
+
+.debug_macro    0x0000000000000000      0x8bc
+ .debug_macro   0x0000000000000000      0x8bc adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x89f
+ .debug_macro   0x0000000000000000      0x89f adc.cpp.o
+
+.debug_macro    0x0000000000000000       0xc9
+ .debug_macro   0x0000000000000000       0xc9 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x88
+ .debug_macro   0x0000000000000000       0x88 adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x14e
+ .debug_macro   0x0000000000000000      0x14e adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x125
+ .debug_macro   0x0000000000000000      0x125 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x63
+ .debug_macro   0x0000000000000000       0x63 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x78
+ .debug_macro   0x0000000000000000       0x78 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x11b
+ .debug_macro   0x0000000000000000      0x11b adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x59
+ .debug_macro   0x0000000000000000       0x59 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x4c
+ .debug_macro   0x0000000000000000       0x4c adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x27f
+ .debug_macro   0x0000000000000000      0x27f adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x195
+ .debug_macro   0x0000000000000000      0x195 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x8a
+ .debug_macro   0x0000000000000000       0x8a adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x10
+ .debug_macro   0x0000000000000000       0x10 adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x6cb
+ .debug_macro   0x0000000000000000      0x6cb adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x20a
+ .debug_macro   0x0000000000000000      0x20a adc.cpp.o
+
+.debug_macro    0x0000000000000000      0xf6f
+ .debug_macro   0x0000000000000000      0xf6f adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x2ab
+ .debug_macro   0x0000000000000000      0x2ab adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x8b5
+ .debug_macro   0x0000000000000000      0x8b5 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x23
+ .debug_macro   0x0000000000000000       0x23 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x39
+ .debug_macro   0x0000000000000000       0x39 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x78
+ .debug_macro   0x0000000000000000       0x78 adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x14e
+ .debug_macro   0x0000000000000000      0x14e adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x7ca
+ .debug_macro   0x0000000000000000      0x7ca adc.cpp.o
+
+.debug_macro    0x0000000000000000       0xff
+ .debug_macro   0x0000000000000000       0xff adc.cpp.o
+
+.debug_macro    0x0000000000000000      0xae7
+ .debug_macro   0x0000000000000000      0xae7 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x51
+ .debug_macro   0x0000000000000000       0x51 adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x11a
+ .debug_macro   0x0000000000000000      0x11a adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x1d
+ .debug_macro   0x0000000000000000       0x1d adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x206
+ .debug_macro   0x0000000000000000      0x206 adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x56a
+ .debug_macro   0x0000000000000000      0x56a adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x9c
+ .debug_macro   0x0000000000000000       0x9c adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x2bf
+ .debug_macro   0x0000000000000000      0x2bf adc.cpp.o
+
+.debug_macro    0x0000000000000000       0xd3
+ .debug_macro   0x0000000000000000       0xd3 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x34
+ .debug_macro   0x0000000000000000       0x34 adc.cpp.o
+
+.debug_macro    0x0000000000000000      0xab0
+ .debug_macro   0x0000000000000000      0xab0 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x17
+ .debug_macro   0x0000000000000000       0x17 adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x6fa
+ .debug_macro   0x0000000000000000      0x6fa adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x22
+ .debug_macro   0x0000000000000000       0x22 adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x596
+ .debug_macro   0x0000000000000000      0x596 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x29b
+ .debug_macro   0x0000000000000000      0x29b adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 adc.cpp.o
+
+.debug_macro    0x0000000000000000     0x15a4
+ .debug_macro   0x0000000000000000     0x15a4 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x53
+ .debug_macro   0x0000000000000000       0x53 adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x347
+ .debug_macro   0x0000000000000000      0x347 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x96
+ .debug_macro   0x0000000000000000       0x96 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x9a
+ .debug_macro   0x0000000000000000       0x9a adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x1cf
+ .debug_macro   0x0000000000000000      0x1cf adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x16c
+ .debug_macro   0x0000000000000000      0x16c adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x413
+ .debug_macro   0x0000000000000000      0x413 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x5f
+ .debug_macro   0x0000000000000000       0x5f adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x1d
+ .debug_macro   0x0000000000000000       0x1d adc.cpp.o
+
+.debug_macro    0x0000000000000000       0xdf
+ .debug_macro   0x0000000000000000       0xdf adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x13f
+ .debug_macro   0x0000000000000000      0x13f adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c adc.cpp.o
+
+.debug_macro    0x0000000000000000      0xdb4
+ .debug_macro   0x0000000000000000      0xdb4 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x21b
+ .debug_macro   0x0000000000000000      0x21b adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x24d
+ .debug_macro   0x0000000000000000      0x24d adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x6c1
+ .debug_macro   0x0000000000000000      0x6c1 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x59
+ .debug_macro   0x0000000000000000       0x59 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x5e
+ .debug_macro   0x0000000000000000       0x5e adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x14d
+ .debug_macro   0x0000000000000000      0x14d adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x58
+ .debug_macro   0x0000000000000000       0x58 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x4c
+ .debug_macro   0x0000000000000000       0x4c adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x49
+ .debug_macro   0x0000000000000000       0x49 adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x106
+ .debug_macro   0x0000000000000000      0x106 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x28
+ .debug_macro   0x0000000000000000       0x28 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0xd1
+ .debug_macro   0x0000000000000000       0xd1 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x98
+ .debug_macro   0x0000000000000000       0x98 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0xb4
+ .debug_macro   0x0000000000000000       0xb4 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x41
+ .debug_macro   0x0000000000000000       0x41 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x4d
+ .debug_macro   0x0000000000000000       0x4d adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x18
+ .debug_macro   0x0000000000000000       0x18 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x1c
+ .debug_macro   0x0000000000000000       0x1c adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x16
+ .debug_macro   0x0000000000000000       0x16 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x29
+ .debug_macro   0x0000000000000000       0x29 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x2b
+ .debug_macro   0x0000000000000000       0x2b adc.cpp.o
+
+.debug_macro    0x0000000000000000      0x167
+ .debug_macro   0x0000000000000000      0x167 adc.cpp.o
+
+.debug_macro    0x0000000000000000       0x30
+ .debug_macro   0x0000000000000000       0x30 adc.cpp.o
