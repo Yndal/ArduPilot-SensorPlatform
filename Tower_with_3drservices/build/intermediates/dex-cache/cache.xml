@@ -2,284 +2,172 @@
 <items version="2" >
 
     <item
-        jar="/Users/yndal/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/jars/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/library-2.4.0-95fbd182c1e67873eb3a0490735d2d5831f8c4d0.jar" />
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-f7cd72e2ed3e1a176852ce24b3ae903e9c4b90ac.jar" />
     </item>
     <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/libs/sius-0.3.2-SNAPSHOT.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d5c0de3f6e8332a9c281f7c00db3edae3746c759">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/sius-0.3.2-SNAPSHOT-c9b3c689d02fb37a3d9fa9ea89b8e76193b51201.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/libs/protobuf-java-2.5.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a10732c76bfacdbd633a7eb0f7968b1059a65dfa">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/pre-dexed/debug/protobuf-java-2.5.0-a5f53c16c15ef911826730da0075f54cdd8f2a4c.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.4/jars/classes.jar"
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.4/jars/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="cf251baf39f5c5138224b67b4106eb6331abbd13">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-45d6681dc165fdfa4771da132723fdc27cc960b1.jar" />
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-c8e04b920a4133b8631fe46e49ef52ee5df694e4.jar" />
     </item>
     <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/libs/j2xx.jar"
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="c9d8dd437e722f60d61bd88ceb779b7d71f67230">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/j2xx-c896d1d64d04e2b1fdb46bbc76a1598f460daa8f.jar" />
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-614e747f4682217e4478a65546af78ce19906891.jar" />
     </item>
     <item
         jar="/Users/yndal/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-eb51b5b5aa66cbb80398e7dee61e9f1e513819d3.jar" />
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-eb51b5b5aa66cbb80398e7dee61e9f1e513819d3.jar" />
     </item>
     <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/libs/j2xx.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/pre-dexed/debug/classes-167cdf7d77e01082d1c00fa3e892f4a6ea50b4e2.jar" />
+        sha1="c9d8dd437e722f60d61bd88ceb779b7d71f67230">
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/j2xx-dd0d13055aa20bbbe3c949251d887b5e25efb164.jar" />
+    </item>
+    <item
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-fbe56bcc95a3c2804d0a46718b13679a8400474d.jar" />
     </item>
     <item
         jar="/Users/yndal/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/gson-2.3.1-9328ca3d52c0917b7f6a9cf62c57287cb21589ca.jar" />
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/gson-2.3.1-9328ca3d52c0917b7f6a9cf62c57287cb21589ca.jar" />
     </item>
     <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/jars/classes.jar"
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/libs/sius-0.3.2-SNAPSHOT.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-3c228e735a89298a560a4373a1e46f02d17f27dd.jar" />
+        sha1="d5c0de3f6e8332a9c281f7c00db3edae3746c759">
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/sius-0.3.2-SNAPSHOT-2f415311310b09fc9cf82bc6f7aaf1f2690aea44.jar" />
     </item>
     <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-f1cad50d2b610f94a410727f6f8a02153a687d66.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/pre-dexed/debug/classes-1e3be26b665c56230f817a03f744138e4fb3d014.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/6.5.87/jars/classes.jar"
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/6.5.87/jars/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="a75b29dc51b364df032af8bcfcad7e54ccfda28d">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/pre-dexed/debug/classes-8014539e31544258409e960e5ff7361bde6ae0f4.jar" />
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-95ec725435308ab5cb8474ecab0aba336ce71b4a.jar" />
     </item>
     <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/jars/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/pre-dexed/debug/classes-81e6d256545a64a9ec43fc961c9f692e0d6ef3b5.jar" />
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-61b5dda2651301c8e794bd39de4073458a53df70.jar" />
     </item>
     <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-2f86d3b85fd528723bd7d2ae1b4a03eb063f8841.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/exploded-aar/Tower_with_3drservices.dependencyLibs.usb-serial-for-android/UsbSerialLibrary/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e056973d4f04254d701d0a8d30720d901a2dfe9b">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/pre-dexed/debug/classes-3bed976f6cc13e2a4334f006a1fcc2835c239ecb.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/exploded-aar/Tower_with_3drservices/AidlLib/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="b7d0d165a5948400e67b0a43e7454b9008fcc619">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-7871b10fbd5f2852b77d7cd6887cbda2a875dc58.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/6.5.87/jars/classes.jar"
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/6.5.87/jars/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4a568f733067f786d53e191ccf998e7ea3da68cc">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/pre-dexed/debug/classes-f05f3ca0aec402da918bd1c75e7eb4d36633da23.jar" />
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-be5682916b2173f39f4c090eb702366794c50ccb.jar" />
     </item>
     <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/libs/additional.jar"
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/libs/jeromq-0.3.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1aaa40f8267f9e3dc86dc8e7e0fbfba0c6e9e47b">
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/jeromq-0.3.4-c44edb4d131df988c458fb9ef0f9baa0e413e3fb.jar" />
+    </item>
+    <item
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-94faa45de6004bbc155fc0c4bbb8a43ce8e8b164.jar" />
+    </item>
+    <item
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/libs/additional.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/additional-35f4dddab78f88ec4befa59cb4b0b509452bf438.jar" />
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/additional-4cd2eb47d28bca7f97fe86bedb13e20c46d21b0e.jar" />
     </item>
     <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/libs/protobuf-java-2.5.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a10732c76bfacdbd633a7eb0f7968b1059a65dfa">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/protobuf-java-2.5.0-fc4b26133a2c19f1640e7184969f7626ea4d912d.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/exploded-aar/Tower_with_3drservices.ClientLib/mobile/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="d52facf3956f87a5337029d64f5aa0b5dc331e2f">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-4f58d58a5fd3c77b1edc1332765e686e17327742.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/dependencyLibs/EllipsoidFit/EllipsoidFit/build/libs/EllipsoidFit.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e8b2b41be3c88556826b5f1c46963170b01f868e">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/pre-dexed/debug/EllipsoidFit-59117349cf81a6918ab0cc71854059fd688fab0b.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-01431714925eafdc75030a099962133bf0f8c7b4.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/libs/j2xx.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="c9d8dd437e722f60d61bd88ceb779b7d71f67230">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/pre-dexed/debug/j2xx-f51e8ed5309da26d8f9fc047d88658b5964e4d21.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/libs/mail.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="428e267abff0d10802ccde86b915da2c20471160">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/mail-6d08e2ef59ca2dd24a78aa01e9e735129b1a88d1.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/6.5.87/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a75b29dc51b364df032af8bcfcad7e54ccfda28d">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-8f8d8fdafcbf3c91fee4f24884460bfce94f4d17.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/libs/jeromq-0.3.4.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="1aaa40f8267f9e3dc86dc8e7e0fbfba0c6e9e47b">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/jeromq-0.3.4-80d1e573edbdffbbbc437c786dd0a85cf274a342.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/dependencyLibs/Mavlink/build/libs/Mavlink.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="b23d2ab796e0a719bde1c295d6ec0160003b66e5">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/pre-dexed/debug/Mavlink-c78687bd7900b5ca27a72c886d70fde21a01e409.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/dependencyLibs/Core/build/libs/Core.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="ab62ffb9472aeb90c337b2dc83b40c181f24a77e">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/pre-dexed/debug/Core-f7a125affc187bfe8cb2914ea7f386a1bcadb7ec.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/libs/jeromq-0.3.4.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="1aaa40f8267f9e3dc86dc8e7e0fbfba0c6e9e47b">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/pre-dexed/debug/jeromq-0.3.4-285597655316303b46f479356c1643495f8fa6bb.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-230f64f58524257a6765525e8baff4b78fa959f5.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-4d7da45928050e5d2dd82715ebd1cbbae4667228.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/exploded-aar/Tower_with_3drservices/AidlLib/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="b7d0d165a5948400e67b0a43e7454b9008fcc619">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/pre-dexed/debug/classes-45660c11dbdc8d2343368b9a40087c423fe7d9ac.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/libs/droneapi-java.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="23db238a0b57581e50034d4d324a7359971fd5a4">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/pre-dexed/debug/droneapi-java-6b82f92b0a4f99bd508552056a28dace9ff72438.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-42a31ee857f6e486f35615ad555ae612dd257fde.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.2/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4796f18d3750bf2bfa078407a94a7f9db35b440d">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/pre-dexed/debug/classes-c965109551f717f599fdeeae36f4d3451517ed56.jar" />
-    </item>
-    <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.sothree.slidinguppanel/library/2.0.2/jars/classes.jar"
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.sothree.slidinguppanel/library/2.0.2/jars/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="579a13f257d393fa870a50809656089cdbeb7506">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-0f06bd79cdfe9c15470f262677bb7d29b816ae0e.jar" />
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-2fd8508b50f602c06658f4b536f2e00ec6762292.jar" />
     </item>
     <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/libs/activation.jar"
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/libs/mail.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/activation-1480729388f3183890e5374b97a05dba50c5f349.jar" />
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/mail-aef86f5d1c7737f4035403eb2ad40b0c4bdd9821.jar" />
     </item>
     <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/libs/droneapi-java-0.3-SNAPSHOT.jar"
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/libs/droneapi-java-0.3-SNAPSHOT.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="1a4e96b9dec592b176ef872faf0b42c75f993c5e">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/droneapi-java-0.3-SNAPSHOT-f5c5455864da24ad26a7cd065bf8fdc6239b90ec.jar" />
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/droneapi-java-0.3-SNAPSHOT-65379f2ca6db16a443de11d53cb674d27ac0f844.jar" />
     </item>
     <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0/jars/classes.jar"
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/libs/protobuf-java-2.5.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="7d2525cba8ed61fff102977caed964fc22061e34">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ServiceApp/build/intermediates/pre-dexed/debug/classes-b3acbfaa5f8f159d8394bc6decbff24841025b11.jar" />
+        sha1="a10732c76bfacdbd633a7eb0f7968b1059a65dfa">
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/protobuf-java-2.5.0-742b4ecfdfd6d416bc7f3a31053a4fc10b8b2e3f.jar" />
     </item>
     <item
-        jar="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/6.5.87/jars/classes.jar"
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/exploded-aar/Tower_with_3drservices/AidlLib/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="4a568f733067f786d53e191ccf998e7ea3da68cc">
-        <dex dex="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-92ef8c09c5054d8795df2e8eb1ee6b00f8ddb0cb.jar" />
+        sha1="9705f81f3a5ee71ed625b8358af19d1a9dfbb3e3">
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-ba40622405e3b04cd674ced2f67707228b29ebda.jar" />
+    </item>
+    <item
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/exploded-aar/Tower_with_3drservices.ClientLib/mobile/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="143bcfb806c8f82d25ffd507ed1002415a6ed1cb">
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-8b6adc5b8f7ad0532b68eff1f30b5bcff684cbad.jar" />
+    </item>
+    <item
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/dependencyLibs/Mavlink/build/libs/Mavlink.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3896ab7932b1051854232a43dc3a68d9cc5b3e46">
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/Mavlink-090b96644a5ec51c027eac8db4ddd065504ed8c9.jar" />
+    </item>
+    <item
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/libs/activation.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/activation-19831a1008a847a7c7604d35a30062f5869f9ad2.jar" />
+    </item>
+    <item
+        jar="/Users/yndal/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/library-2.4.0-95fbd182c1e67873eb3a0490735d2d5831f8c4d0.jar" />
+    </item>
+    <item
+        jar="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/Android/build/intermediates/pre-dexed/debug/classes-39d53a4d48c338caeed8f184d76315c078c5244a.jar" />
     </item>
 
 </items>

@@ -149,9 +149,6 @@ public class HeatmapFragment extends SupportMapFragment  {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState){
         super.onViewCreated(view, savedInstanceState);
-
-
-
     }
 
     @Override
@@ -294,8 +291,8 @@ public class HeatmapFragment extends SupportMapFragment  {
 
 
     private void initHeatmapStuff(){
-        sensorIntQueue = new QueueWithLimit<>();
-        sensorFloatQueue = new QueueWithLimit<>();
+        sensorIntQueue = new QueueWithLimit<>(300);
+        sensorFloatQueue = new QueueWithLimit<>(300);
         coords = new ArrayList<>();
         circles = new ArrayList<>();
 
@@ -308,18 +305,21 @@ public class HeatmapFragment extends SupportMapFragment  {
             sensorThread = new Thread(new Runnable() {
                 @Override
                 public void run() {
-                    //ITU
-                    double latitude = 55.4802501E7;
-                    double longitude = 12.1789641E7;
+                    //ITU (55.659459, 12.591262)
+                    //Koege (55.480338, 12.178821)
+                    double latitude = 55.480338;//E7;
+                    double longitude = 12.178821;//E7;
 
-                    double deltaLong = 0.001E7;
+
+
+                    double deltaLong = 0.0001;//0.001E7;
                     int deltaValue = 1;
                     int counter = 0;
 
                     while (true) {
                         IntSensor sensor = new IntSensor(latitude, longitude + counter * deltaLong, 20, 10, 10 + counter * deltaValue);
                         counter++;
-                        Log.d("Thread thread thread", "Added sensor #" + counter + "(" + sensor.getLatitude() / 1E7 + "; " + sensor.getLongitude() / 1E7 + ")");
+                        Log.d("Thread thread thread", "Added sensor #" + counter + "(" + sensor.getLatitude() /*/ 1E7*/ + "; " + sensor.getLongitude() /*/ 1E7*/ + ")");
                         onIntSensorUpdated(sensor);
 
                         try {
@@ -550,6 +550,8 @@ public class HeatmapFragment extends SupportMapFragment  {
                     int deltaG = Color.green(high) - Color.green(low);
                     int deltaB = Color.blue(high) - Color.blue(low);
 
+                    int alpha = 130;
+
                     switch (showedSensor) {
                         case IntSensor:
 
@@ -563,7 +565,7 @@ public class HeatmapFragment extends SupportMapFragment  {
                                 int r = Color.red(low) + (int) (deltaR * weight);
                                 int g = Color.green(low) + (int) (deltaG * weight);
                                 int b = Color.blue(low) + (int) (deltaB * weight);
-                                int color = Color.argb(40, r, g, b);
+                                int color = Color.argb(alpha, r, g, b);
 
 
                                 Circle circleInt = mMap.addCircle(new CircleOptions()
@@ -587,13 +589,14 @@ public class HeatmapFragment extends SupportMapFragment  {
                                 int r = Color.red(low) + (int) (deltaR * weight);
                                 int g = Color.green(low) + (int) (deltaG * weight);
                                 int b = Color.blue(low) + (int) (deltaB * weight);
-                                int color = Color.argb(40, r, g, b);
+                                int color = Color.argb(alpha, r, g, b);
 
                                 Circle circleFloat = mMap.addCircle(new CircleOptions()
                                         .center(new LatLng(floatSensor.getLatitude(), floatSensor.getLongitude()))
-                                        .radius(50)
+                                        .radius(5)
                                         .fillColor(color)
-                                        .strokeColor(color));
+                                        .strokeColor(color)
+                                .strokeWidth(0f));
                                 circles.add(circleFloat);
                             }
                             break;

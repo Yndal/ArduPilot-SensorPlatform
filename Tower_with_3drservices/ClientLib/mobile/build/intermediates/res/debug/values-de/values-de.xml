@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- From: file:/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ClientLib/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-de/common_strings.xml -->
+    <!-- From: file:/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/ClientLib/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-de/common_strings.xml -->
     <eat-comment/>
     <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Für eine App ist die Aktualisierung der Android Wear App erforderlich."</string>
     <string msgid="3046420540094071256" name="common_android_wear_update_text">"Diese App funktioniert erst nach der Aktualisierung der Android Wear App."</string>
@@ -30,7 +30,7 @@
     <string msgid="411506735369601515" name="common_open_on_phone">"Auf Telefon öffnen"</string>
     <string msgid="9071884888741449141" name="common_signin_button_text">"Anmelden"</string>
     <string msgid="2429381841831957106" name="common_signin_button_text_long">"Über Google anmelden"</string>
-    <!-- From: file:/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ClientLib/mobile/src/main/res/values-de/strings.xml -->
+    <!-- From: file:/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/ClientLib/mobile/src/main/res/values-de/strings.xml -->
     <eat-comment/>
     <string name="install_service_dialog_install_button">Installieren</string>
     <string name="install_service_dialog_message">3DR Services muss auf diesem Gerät installiert sein, um diese App verwenden zu können.</string>

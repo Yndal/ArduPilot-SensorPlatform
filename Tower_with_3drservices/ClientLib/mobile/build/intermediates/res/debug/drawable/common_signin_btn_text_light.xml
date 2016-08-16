@@ -16,4 +16,4 @@
     <item
         android:drawable="@drawable/common_signin_btn_text_normal_light" />
 </selector>
-<!-- From: file:/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ClientLib/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/drawable/common_signin_btn_text_light.xml -->
+<!-- From: file:/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/ClientLib/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/drawable/common_signin_btn_text_light.xml -->

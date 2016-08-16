@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ClientLib/mobile/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/ClientLib/mobile/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="install_service_dialog_install_button">Install</string>
     <string name="install_service_dialog_message">3DR Services must be installed on the device to use this app.</string>

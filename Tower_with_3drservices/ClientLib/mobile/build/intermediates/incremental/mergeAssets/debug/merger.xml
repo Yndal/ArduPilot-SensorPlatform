@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ClientLib/mobile/src/main/assets"/></dataSet><dataSet config="debug"><source path="/Users/yndal/Desktop/WorkingDroneCode/Drone-Code/Tower_with_3drservices/ClientLib/mobile/src/debug/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/ClientLib/mobile/src/main/assets"/></dataSet><dataSet config="debug"><source path="/Users/yndal/Development/Drone/ArduPilot-SensorPlatform/Tower_with_3drservices/ClientLib/mobile/src/debug/assets"/></dataSet></merger>
